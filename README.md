@@ -17,6 +17,10 @@ Repository Contents
 * **/Production** - Production panel files (.brd)
 * **/Software** - Related software for the <PRODUCT NAME>
 
+Issues
+------------
+See the [issue template](.github/ISSUE_TEMPLATE/) folder for more information on how to raise issues for bugs and new features.
+
 Documentation
 --------------
 * **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
