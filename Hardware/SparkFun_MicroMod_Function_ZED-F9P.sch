@@ -27119,7 +27119,7 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 <wire x1="160.02" y1="106.68" x2="160.02" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <text x="119.634" y="91.186" size="2.54" layer="94" font="vector" align="center">MicroMod Function Connector</text>
 <text x="348.234" y="11.176" size="2.54" layer="94">A. Brudner</text>
-<text x="421.894" y="6.096" size="2.54" layer="94">v0.1</text>
+<text x="421.894" y="6.096" size="2.54" layer="94">v1.0</text>
 <wire x1="160.02" y1="66.04" x2="160.02" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="106.68" x2="83.82" y2="106.68" width="0.2032" layer="97" style="longdash"/>
 <text x="53.34" y="266.7" size="2.54" layer="94" font="vector" align="center">ZED-F9P USB (u-center)</text>
