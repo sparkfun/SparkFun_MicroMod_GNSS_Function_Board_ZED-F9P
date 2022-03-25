@@ -3605,6 +3605,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-3.01625" y="-2.69875" curve="90"/>
 </polygon>
 </package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Fuses">
@@ -4369,11 +4385,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="DCRESISTANCE" value="1.71Ohm" x="-55" y="-966" size="1.778" layer="27" display="off"/>
 <attribute name="INDUCTANCE" value="150nH" x="-55" y="-966" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R22" library="SparkFun-Resistors" package="0603" value="20" x="-54" y="-969" smashed="yes">
-<attribute name="NAME" x="-54" y="-968.238" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07862" x="-54" y="-969" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-54" y="-969.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
 <element name="R23" library="SparkFun-Resistors" package="0603" value="2.0k" x="-54" y="-973" smashed="yes">
 <attribute name="NAME" x="-54" y="-972.238" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-08296" x="-54" y="-973" size="1.778" layer="27" display="off"/>
@@ -4448,6 +4459,13 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 </element>
 <element name="TP19" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="-83" y="141" smashed="yes"/>
 <element name="TP20" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="-83" y="144" smashed="yes"/>
+<element name="R27" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="1210" value="RK73H2ETTD16R9F" x="-82" y="-1018" smashed="yes">
+<attribute name="NAME" x="-82" y="-1016.603" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="POWER" value="0.5W" x="-82" y="-1018" size="1.778" layer="27" display="off"/>
+<attribute name="RESISTANCE" value="16.9" x="-82" y="-1018" size="1.778" layer="27" display="off"/>
+<attribute name="TOLERANCE" value="1%" x="-82" y="-1018" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-82" y="-1019.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -5043,10 +5061,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <signal name="ANT_!SHORT!">
 <contactref element="U6" pad="P$8"/>
 <contactref element="Q1" pad="P$1"/>
-<contactref element="R22" pad="1"/>
 <contactref element="R23" pad="2"/>
-<wire x1="-54.85" y1="-969" x2="-53.15" y2="-973" width="0" layer="19" extent="1-1"/>
-<wire x1="-54" y1="-963.3" x2="-54.85" y2="-969" width="0" layer="19" extent="1-1"/>
+<contactref element="R27" pad="1"/>
+<wire x1="-53.15" y1="-973" x2="-83.755" y2="-1018" width="0" layer="19" extent="1-1"/>
+<wire x1="-54" y1="-963.3" x2="-53.15" y2="-973" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.75" y1="-480.35" x2="-54" y2="-963.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ANT_OFF">
@@ -5348,10 +5366,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="U$7" pad="4"/>
 <contactref element="C13" pad="1"/>
 <contactref element="L1" pad="P$1"/>
-<contactref element="R22" pad="2"/>
+<contactref element="R27" pad="2"/>
 <wire x1="-43.5" y1="-961" x2="-52.05" y2="-955.6999" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.4" y1="-966" x2="-52.05" y2="-955.6999" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.15" y1="-969" x2="-55.4" y2="-966" width="0" layer="19" extent="1-1"/>
+<wire x1="-80.245" y1="-1018" x2="-55.4" y2="-966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="C5" pad="1"/>

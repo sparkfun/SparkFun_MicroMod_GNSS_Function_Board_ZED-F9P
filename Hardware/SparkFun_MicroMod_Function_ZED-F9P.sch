@@ -20505,26 +20505,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="20OHM" prefix="R">
-<description>RES-07862</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-1/10W-1%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-07862"/>
-<attribute name="VALUE" value="20"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2.0KOHM" prefix="R">
 <description>&lt;h3&gt;2kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -25716,6 +25696,22 @@ CAP-09321</description>
 <vertex x="-3.01625" y="-2.69875" curve="90"/>
 </polygon>
 </package>
+<package name="1210">
+<description>&lt;p&gt;&lt;b&gt;Generic 3225 (1210) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.5365" y1="1.1865" x2="1.5365" y2="1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="1.1865" x2="1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="1.5365" y1="-1.1865" x2="-1.5365" y2="-1.1865" width="0.127" layer="51"/>
+<wire x1="-1.5365" y1="-1.1865" x2="-1.5365" y2="1.1865" width="0.127" layer="51"/>
+<smd name="1" x="-1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<smd name="2" x="1.755" y="0" dx="1.27" dy="2.06" layer="1"/>
+<text x="0" y="1.397" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.397" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-2.59" y1="1.45" x2="2.59" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="1.45" x2="2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="GATE_INVERTER">
@@ -26035,6 +26031,21 @@ Switches electrical signals</description>
 <text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="RESISTOR">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SN74AUP1T04" prefix="U">
@@ -26274,6 +26285,26 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RK73H2ETTD16R9F" prefix="R">
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POWER" value="0.5W"/>
+<attribute name="RESISTANCE" value="16.9"/>
+<attribute name="TOLERANCE" value="1%"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -27063,7 +27094,6 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 <part name="U$13" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="R25" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="L1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="LQW15AWR15J80D" device=""/>
-<part name="R22" library="SparkFun-Resistors" deviceset="20OHM" device="-0603-1/10W-1%" value="20"/>
 <part name="R23" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0603-1/10W-5%" value="2.0k"/>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -27112,6 +27142,7 @@ Why hasn't anyone added the cutout polygons directly to the connector footprint?
 <part name="C17" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="TP19" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP20" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
+<part name="R27" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="RK73H2ETTD16R9F" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27692,10 +27723,6 @@ supervisor.</text>
 <attribute name="NAME" x="232.41" y="228.6" size="1.778" layer="95" font="vector"/>
 <attribute name="INDUCTANCE" x="228.6" y="223.52" size="2.032" layer="96" font="vector"/>
 </instance>
-<instance part="R22" gate="G$1" x="200.66" y="226.06" smashed="yes">
-<attribute name="NAME" x="200.66" y="227.584" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="200.66" y="224.536" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="R23" gate="G$1" x="190.5" y="203.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="188.976" y="203.2" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="192.024" y="203.2" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -27847,6 +27874,10 @@ supervisor.</text>
 </instance>
 <instance part="TP20" gate="G$1" x="152.4" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="149.86" y="241.3" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R27" gate="G$1" x="200.66" y="226.06" smashed="yes">
+<attribute name="NAME" x="200.66" y="227.584" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="RESISTANCE" x="198.12" y="223.52" size="1.778" layer="96" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -28976,8 +29007,8 @@ supervisor.</text>
 <wire x1="190.5" y1="210.82" x2="182.88" y2="210.82" width="0.1524" layer="91"/>
 <junction x="190.5" y="210.82"/>
 <label x="182.88" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -29451,7 +29482,7 @@ supervisor.</text>
 <junction x="213.36" y="226.06"/>
 <junction x="220.98" y="226.06"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$14" class="0">
