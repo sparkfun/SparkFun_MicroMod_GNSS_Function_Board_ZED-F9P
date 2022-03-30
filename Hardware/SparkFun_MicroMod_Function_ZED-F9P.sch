@@ -28684,8 +28684,9 @@ ZED-F9P</text>
 <text x="236.474" y="219.71" size="1.27" layer="97" font="vector">Place diode 
 close to 
 connector.</text>
-<text x="175.514" y="207.01" size="1.27" layer="97" font="vector" align="bottom-right">Move jumper to 1-2 
-to enable antenna 
+<text x="150.114" y="252.73" size="1.27" layer="97" font="vector">Move jumper 
+to 1-2 when 
+using antenna 
 supervisor.</text>
 <wire x1="350.52" y1="66.04" x2="431.8" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="35.56" x2="330.2" y2="66.04" width="0.2032" layer="97" style="longdash"/>
