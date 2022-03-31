@@ -28439,9 +28439,34 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <classes>
 <class number="0" name="default" width="0.000153125" drill="0.00030625">
 </class>
-<class number="1" name="vcc" width="0.000253125" drill="0">
+<class number="1" name="GND" width="0" drill="0">
 </class>
-<class number="2" name="3.3V" width="0.2032" drill="0">
+<class number="2" name="GND_RF" width="0" drill="0">
+<clearance class="1" value="0.64"/>
+</class>
+<class number="3" name="RF_IN" width="0.35" drill="0">
+<clearance class="0" value="0.46"/>
+<clearance class="1" value="0.64"/>
+<clearance class="2" value="0.46"/>
+</class>
+<class number="4" name="3.3V" width="0" drill="0">
+</class>
+<class number="5" name="5V" width="0" drill="0">
+<clearance class="4" value="0.1"/>
+</class>
+<class number="6" name="USB_DIFF" width="0" drill="0">
+</class>
+<class number="7" name="V_ZED" width="0" drill="0">
+<clearance class="4" value="0.64"/>
+</class>
+<class number="8" name="V_RF" width="0.35" drill="0">
+<clearance class="2" value="0.46"/>
+</class>
+<class number="9" name="PPS_DIFF" width="0" drill="0">
+</class>
+<class number="10" name="DIGITAL" width="0" drill="0">
+</class>
+<class number="11" name="ZED_DIG" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -28595,7 +28620,6 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="U$10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="U1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74LVC1G66DRYR" device=""/>
-<part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -28650,6 +28674,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="U$32" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_SMALL"/>
 <part name="J15" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="" value="QWIIC_VERT"/>
+<part name="U$33" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -29223,9 +29248,6 @@ to the side labeled "SPI".</text>
 <attribute name="NAME" x="38.1" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="GND30" gate="1" x="35.56" y="142.24" smashed="yes">
-<attribute name="VALUE" x="35.56" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="SUPPLY12" gate="G$1" x="10.16" y="116.84" smashed="yes">
 <attribute name="VALUE" x="10.16" y="119.634" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -29405,11 +29427,14 @@ to the side labeled "SPI".</text>
 <attribute name="VALUE" x="368.3" y="243.586" size="1.778" layer="96" font="vector" align="top-left"/>
 <attribute name="NAME" x="368.3" y="256.794" size="1.778" layer="95" font="vector"/>
 </instance>
+<instance part="U$33" gate="G$1" x="35.56" y="142.24" smashed="yes">
+<attribute name="VALUE" x="35.56" y="141.986" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="78.74" y1="15.24" x2="76.2" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="15.24" x2="76.2" y2="12.7" width="0.1524" layer="91"/>
@@ -29533,11 +29558,6 @@ to the side labeled "SPI".</text>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND30" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="VSS"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <wire x1="10.16" y1="104.14" x2="10.16" y2="106.68" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -29568,7 +29588,7 @@ to the side labeled "SPI".</text>
 <wire x1="309.88" y1="43.18" x2="309.88" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="3.3V" class="0">
+<net name="3.3V" class="4">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
@@ -29618,28 +29638,28 @@ to the side labeled "SPI".</text>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="A0" class="0">
+<net name="A0" class="10">
 <segment>
 <pinref part="U3" gate="G$1" pin="A0"/>
 <wire x1="63.5" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="J2" gate="J1" pin="EEPROM_A0"/>
 </segment>
 </net>
-<net name="A2" class="0">
+<net name="A2" class="10">
 <segment>
 <pinref part="U3" gate="G$1" pin="A2"/>
 <wire x1="63.5" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="J2" gate="J1" pin="EEPROM_A2"/>
 </segment>
 </net>
-<net name="A1" class="0">
+<net name="A1" class="10">
 <segment>
 <pinref part="U3" gate="G$1" pin="A1"/>
 <wire x1="63.5" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="J2" gate="J1" pin="EEPROM_A1"/>
 </segment>
 </net>
-<net name="EWP" class="0">
+<net name="EWP" class="10">
 <segment>
 <wire x1="78.74" y1="25.4" x2="76.2" y2="25.4" width="0.1524" layer="91"/>
 <label x="76.2" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29689,7 +29709,7 @@ to the side labeled "SPI".</text>
 <pinref part="J1" gate="J1" pin="CC1"/>
 </segment>
 </net>
-<net name="V_USB" class="0">
+<net name="V_USB" class="5">
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="V_USB"/>
 <wire x1="40.64" y1="251.46" x2="45.72" y2="251.46" width="0.1524" layer="91"/>
@@ -29729,7 +29749,7 @@ to the side labeled "SPI".</text>
 <pinref part="D3" gate="D1" pin="6"/>
 </segment>
 </net>
-<net name="ZED_USB_P" class="0">
+<net name="ZED_USB_P" class="6">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="248.92" x2="111.76" y2="248.92" width="0.1524" layer="91"/>
@@ -29741,7 +29761,7 @@ to the side labeled "SPI".</text>
 <label x="259.08" y="213.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ZED_USB_N" class="0">
+<net name="ZED_USB_N" class="6">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="238.76" x2="111.76" y2="238.76" width="0.1524" layer="91"/>
@@ -29753,7 +29773,7 @@ to the side labeled "SPI".</text>
 <label x="259.08" y="210.82" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="PWR_EN" class="0">
+<net name="PWR_EN" class="10">
 <segment>
 <label x="76.2" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="76.2" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
@@ -29765,7 +29785,7 @@ to the side labeled "SPI".</text>
 <label x="27.94" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="V_BATT" class="0">
+<net name="V_BATT" class="4">
 <segment>
 <wire x1="96.52" y1="162.56" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -29798,14 +29818,14 @@ to the side labeled "SPI".</text>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="N$32" class="4">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="177.8" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="VIN" class="0">
+<net name="VIN" class="5">
 <segment>
 <pinref part="J2" gate="J1" pin="VCC"/>
 <wire x1="71.12" y1="71.12" x2="71.12" y2="68.58" width="0.1524" layer="91"/>
@@ -29819,7 +29839,7 @@ to the side labeled "SPI".</text>
 <wire x1="33.02" y1="190.5" x2="33.02" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PPS" class="0">
+<net name="PPS" class="10">
 <segment>
 <wire x1="96.52" y1="111.76" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
@@ -29874,7 +29894,7 @@ to the side labeled "SPI".</text>
 <pinref part="D7" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="RTK_STAT" class="0">
+<net name="RTK_STAT" class="10">
 <segment>
 <wire x1="96.52" y1="104.14" x2="93.98" y2="104.14" width="0.1524" layer="91"/>
 <label x="93.98" y="104.14" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
@@ -29891,7 +29911,7 @@ to the side labeled "SPI".</text>
 <pinref part="J2" gate="J1" pin="F6"/>
 </segment>
 </net>
-<net name="GEO_STAT" class="0">
+<net name="GEO_STAT" class="10">
 <segment>
 <wire x1="309.88" y1="86.36" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
 <label x="309.88" y="86.36" size="1.27" layer="95" xref="yes"/>
@@ -29903,7 +29923,7 @@ to the side labeled "SPI".</text>
 <pinref part="J2" gate="J1" pin="F5"/>
 </segment>
 </net>
-<net name="ZED_SCL/SCK" class="0">
+<net name="ZED_SCL/SCK" class="11">
 <segment>
 <wire x1="327.66" y1="231.14" x2="330.2" y2="231.14" width="0.1524" layer="91"/>
 <label x="330.2" y="231.14" size="1.27" layer="95" xref="yes"/>
@@ -29920,7 +29940,7 @@ to the side labeled "SPI".</text>
 <label x="185.42" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ZED_SDA/!CS!" class="0">
+<net name="ZED_SDA/!CS!" class="11">
 <segment>
 <wire x1="327.66" y1="233.68" x2="330.2" y2="233.68" width="0.1524" layer="91"/>
 <label x="330.2" y="233.68" size="1.27" layer="95" xref="yes"/>
@@ -29937,7 +29957,7 @@ to the side labeled "SPI".</text>
 <label x="185.42" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="RX2/RTCM" class="0">
+<net name="RX2/RTCM" class="10">
 <segment>
 <wire x1="281.94" y1="48.26" x2="276.86" y2="48.26" width="0.1524" layer="91"/>
 <label x="274.32" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -29953,7 +29973,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A5"/>
 </segment>
 </net>
-<net name="!RESET!" class="0">
+<net name="!RESET!" class="10">
 <segment>
 <pinref part="J2" gate="J1" pin="F3"/>
 <wire x1="116.84" y1="25.4" x2="114.3" y2="25.4" width="0.1524" layer="91"/>
@@ -29975,7 +29995,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A1"/>
 </segment>
 </net>
-<net name="EXTINT" class="0">
+<net name="EXTINT" class="10">
 <segment>
 <pinref part="J2" gate="J1" pin="F4"/>
 <wire x1="116.84" y1="22.86" x2="114.3" y2="22.86" width="0.1524" layer="91"/>
@@ -29997,7 +30017,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A2"/>
 </segment>
 </net>
-<net name="ZED_DSEL" class="0">
+<net name="ZED_DSEL" class="11">
 <segment>
 <wire x1="327.66" y1="218.44" x2="330.2" y2="218.44" width="0.1524" layer="91"/>
 <label x="330.2" y="218.44" size="1.27" layer="95" xref="yes"/>
@@ -30032,7 +30052,7 @@ to the side labeled "SPI".</text>
 <pinref part="U4" gate="G$1" pin="4E"/>
 </segment>
 </net>
-<net name="ZED_ANT_!SHORT!" class="0">
+<net name="ZED_ANT_!SHORT!" class="11">
 <segment>
 <wire x1="289.56" y1="220.98" x2="292.1" y2="220.98" width="0.1524" layer="91"/>
 <label x="289.56" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -30055,7 +30075,7 @@ to the side labeled "SPI".</text>
 <wire x1="203.2" y1="231.14" x2="203.2" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ZED_ANT_DETECT" class="0">
+<net name="ZED_ANT_DETECT" class="11">
 <segment>
 <wire x1="289.56" y1="226.06" x2="292.1" y2="226.06" width="0.1524" layer="91"/>
 <label x="289.56" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -30067,7 +30087,7 @@ to the side labeled "SPI".</text>
 <pinref part="U6" gate="G1" pin="OUT"/>
 </segment>
 </net>
-<net name="ZED_EXTINT" class="0">
+<net name="ZED_EXTINT" class="11">
 <segment>
 <wire x1="327.66" y1="236.22" x2="330.2" y2="236.22" width="0.1524" layer="91"/>
 <label x="330.2" y="236.22" size="1.27" layer="95" xref="yes"/>
@@ -30079,7 +30099,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y2"/>
 </segment>
 </net>
-<net name="ZED_!RESET!" class="0">
+<net name="ZED_!RESET!" class="11">
 <segment>
 <wire x1="330.2" y1="238.76" x2="327.66" y2="238.76" width="0.1524" layer="91"/>
 <label x="330.2" y="238.76" size="1.27" layer="95" xref="yes"/>
@@ -30091,7 +30111,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y1"/>
 </segment>
 </net>
-<net name="ZED_ANT_OFF" class="0">
+<net name="ZED_ANT_OFF" class="11">
 <segment>
 <wire x1="289.56" y1="223.52" x2="292.1" y2="223.52" width="0.1524" layer="91"/>
 <label x="289.56" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -30107,7 +30127,7 @@ to the side labeled "SPI".</text>
 <junction x="175.26" y="241.3"/>
 </segment>
 </net>
-<net name="TX2/RTCM" class="0">
+<net name="TX2/RTCM" class="10">
 <segment>
 <wire x1="281.94" y1="45.72" x2="276.86" y2="45.72" width="0.1524" layer="91"/>
 <label x="274.32" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -30123,7 +30143,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y4"/>
 </segment>
 </net>
-<net name="TX_READY" class="0">
+<net name="TX_READY" class="10">
 <segment>
 <pinref part="J2" gate="J1" pin="F0/!INT!"/>
 <wire x1="114.3" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
@@ -30140,7 +30160,7 @@ to the side labeled "SPI".</text>
 <label x="243.84" y="17.78" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ZED_TX_READY" class="0">
+<net name="ZED_TX_READY" class="11">
 <segment>
 <wire x1="327.66" y1="228.6" x2="330.2" y2="228.6" width="0.1524" layer="91"/>
 <label x="330.2" y="228.6" size="1.27" layer="95" xref="yes"/>
@@ -30152,7 +30172,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A3"/>
 </segment>
 </net>
-<net name="ZED_TX/CIPO" class="0">
+<net name="ZED_TX/CIPO" class="11">
 <segment>
 <wire x1="330.2" y1="223.52" x2="327.66" y2="223.52" width="0.1524" layer="91"/>
 <label x="330.2" y="223.52" size="1.27" layer="95" xref="yes"/>
@@ -30169,7 +30189,7 @@ to the side labeled "SPI".</text>
 <label x="185.42" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ZED_RX/COPI" class="0">
+<net name="ZED_RX/COPI" class="11">
 <segment>
 <wire x1="330.2" y1="220.98" x2="327.66" y2="220.98" width="0.1524" layer="91"/>
 <label x="330.2" y="220.98" size="1.27" layer="95" xref="yes"/>
@@ -30186,7 +30206,7 @@ to the side labeled "SPI".</text>
 <label x="185.42" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="ZED_TX2/RTCM" class="0">
+<net name="ZED_TX2/RTCM" class="11">
 <segment>
 <wire x1="330.2" y1="213.36" x2="327.66" y2="213.36" width="0.1524" layer="91"/>
 <label x="330.2" y="213.36" size="1.27" layer="95" xref="yes"/>
@@ -30198,7 +30218,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A4"/>
 </segment>
 </net>
-<net name="ZED_RX2/RTCM" class="0">
+<net name="ZED_RX2/RTCM" class="11">
 <segment>
 <wire x1="330.2" y1="210.82" x2="327.66" y2="210.82" width="0.1524" layer="91"/>
 <label x="330.2" y="210.82" size="1.27" layer="95" xref="yes"/>
@@ -30210,7 +30230,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y5"/>
 </segment>
 </net>
-<net name="ZED_RTK_STAT" class="0">
+<net name="ZED_RTK_STAT" class="11">
 <segment>
 <wire x1="330.2" y1="203.2" x2="327.66" y2="203.2" width="0.1524" layer="91"/>
 <label x="330.2" y="203.2" size="1.27" layer="95" xref="yes"/>
@@ -30222,7 +30242,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A6"/>
 </segment>
 </net>
-<net name="ZED_GEO_STAT" class="0">
+<net name="ZED_GEO_STAT" class="11">
 <segment>
 <wire x1="330.2" y1="200.66" x2="327.66" y2="200.66" width="0.1524" layer="91"/>
 <label x="330.2" y="200.66" size="1.27" layer="95" xref="yes"/>
@@ -30234,7 +30254,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A7"/>
 </segment>
 </net>
-<net name="ZED_PPS" class="0">
+<net name="ZED_PPS" class="11">
 <segment>
 <wire x1="330.2" y1="198.12" x2="327.66" y2="198.12" width="0.1524" layer="91"/>
 <label x="330.2" y="198.12" size="1.27" layer="95" xref="yes"/>
@@ -30246,7 +30266,7 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="A0"/>
 </segment>
 </net>
-<net name="ZED_!SAFEBOOT!" class="0">
+<net name="ZED_!SAFEBOOT!" class="11">
 <segment>
 <wire x1="330.2" y1="193.04" x2="327.66" y2="193.04" width="0.1524" layer="91"/>
 <label x="330.2" y="193.04" size="1.27" layer="95" xref="yes"/>
@@ -30263,7 +30283,7 @@ to the side labeled "SPI".</text>
 <junction x="279.4" y="25.4"/>
 </segment>
 </net>
-<net name="V_ZED" class="0">
+<net name="V_ZED" class="7">
 <segment>
 <wire x1="396.24" y1="162.56" x2="393.7" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="162.56" x2="393.7" y2="165.1" width="0.1524" layer="91"/>
@@ -30402,7 +30422,7 @@ to the side labeled "SPI".</text>
 <pinref part="D5" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="V_RF" class="0">
+<net name="V_RF" class="8">
 <segment>
 <pinref part="U8" gate="U1" pin="V_RF"/>
 <pinref part="U$4" gate="G$1" pin="V_RF"/>
@@ -30420,7 +30440,7 @@ to the side labeled "SPI".</text>
 <wire x1="167.64" y1="259.08" x2="167.64" y2="256.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND_RF" class="0">
+<net name="GND_RF" class="2">
 <segment>
 <pinref part="U6" gate="G2" pin="P$V-"/>
 <pinref part="U$6" gate="G$1" pin="GND_RF"/>
@@ -30575,8 +30595,13 @@ to the side labeled "SPI".</text>
 <pinref part="U$32" gate="G$1" pin="GND_RF"/>
 <wire x1="132.08" y1="119.38" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VSS"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="U$33" gate="G$1" pin="GND_RF"/>
+</segment>
 </net>
-<net name="RF_IN" class="1">
+<net name="RF_IN" class="3">
 <segment>
 <pinref part="U8" gate="U1" pin="RF_IN"/>
 <wire x1="269.24" y1="231.14" x2="292.1" y2="231.14" width="0.1524" layer="91"/>
@@ -30594,7 +30619,7 @@ to the side labeled "SPI".</text>
 <pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$51" class="0">
+<net name="PPS_DIFF_N" class="9">
 <segment>
 <pinref part="U9" gate="G$1" pin="DO-"/>
 <wire x1="406.4" y1="205.74" x2="414.02" y2="205.74" width="0.1524" layer="91"/>
@@ -30612,7 +30637,7 @@ to the side labeled "SPI".</text>
 <pinref part="R12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="N$7" class="3">
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="231.14" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
@@ -30625,7 +30650,7 @@ to the side labeled "SPI".</text>
 <wire x1="233.68" y1="246.38" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="PPS_DIFF_P" class="9">
 <segment>
 <pinref part="U9" gate="G$1" pin="DO+"/>
 <wire x1="406.4" y1="210.82" x2="408.94" y2="210.82" width="0.1524" layer="91"/>
@@ -30634,7 +30659,7 @@ to the side labeled "SPI".</text>
 <wire x1="408.94" y1="208.28" x2="414.02" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MM_SDA" class="0">
+<net name="MM_SDA" class="10">
 <segment>
 <wire x1="218.44" y1="137.16" x2="220.98" y2="137.16" width="0.1524" layer="91"/>
 <label x="220.98" y="137.16" size="1.27" layer="95" xref="yes"/>
@@ -30666,7 +30691,7 @@ to the side labeled "SPI".</text>
 <label x="208.28" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_SCK" class="0">
+<net name="MM_SCK" class="10">
 <segment>
 <wire x1="220.98" y1="91.44" x2="218.44" y2="91.44" width="0.1524" layer="91"/>
 <label x="220.98" y="91.44" size="1.27" layer="95" xref="yes"/>
@@ -30683,7 +30708,7 @@ to the side labeled "SPI".</text>
 <label x="243.84" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_TX" class="0">
+<net name="MM_TX" class="10">
 <segment>
 <wire x1="218.44" y1="127" x2="220.98" y2="127" width="0.1524" layer="91"/>
 <label x="220.98" y="127" size="1.27" layer="95" xref="yes"/>
@@ -30700,7 +30725,7 @@ to the side labeled "SPI".</text>
 <label x="208.28" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_RX" class="0">
+<net name="MM_RX" class="10">
 <segment>
 <wire x1="218.44" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
 <label x="220.98" y="121.92" size="1.27" layer="95" xref="yes"/>
@@ -30717,7 +30742,7 @@ to the side labeled "SPI".</text>
 <label x="208.28" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_!CS!" class="0">
+<net name="MM_!CS!" class="10">
 <segment>
 <wire x1="218.44" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
 <label x="220.98" y="96.52" size="1.27" layer="95" xref="yes"/>
@@ -30734,7 +30759,7 @@ to the side labeled "SPI".</text>
 <label x="243.84" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_SCL" class="0">
+<net name="MM_SCL" class="10">
 <segment>
 <wire x1="220.98" y1="132.08" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 <label x="220.98" y="132.08" size="1.27" layer="95" xref="yes"/>
@@ -30766,7 +30791,7 @@ to the side labeled "SPI".</text>
 <label x="208.28" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_CIPO" class="0">
+<net name="MM_CIPO" class="10">
 <segment>
 <wire x1="218.44" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
 <label x="220.98" y="86.36" size="1.27" layer="95" xref="yes"/>
@@ -30783,7 +30808,7 @@ to the side labeled "SPI".</text>
 <label x="243.84" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="MM_COPI" class="0">
+<net name="MM_COPI" class="10">
 <segment>
 <wire x1="218.44" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="220.98" y="81.28" size="1.27" layer="95" xref="yes"/>
@@ -30807,7 +30832,7 @@ to the side labeled "SPI".</text>
 <wire x1="411.48" y1="86.36" x2="414.02" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!ZED_DSEL!" class="0">
+<net name="!ZED_DSEL!" class="11">
 <segment>
 <pinref part="U11" gate="G$1" pin="Y"/>
 <wire x1="414.02" y1="127" x2="411.48" y2="127" width="0.1524" layer="91"/>
@@ -30832,7 +30857,7 @@ to the side labeled "SPI".</text>
 <pinref part="U5" gate="G$1" pin="4E"/>
 </segment>
 </net>
-<net name="IO_!OE!" class="0">
+<net name="IO_!OE!" class="10">
 <segment>
 <pinref part="U10" gate="G$1" pin="Y"/>
 <wire x1="411.48" y1="160.02" x2="414.02" y2="160.02" width="0.1524" layer="91"/>
@@ -30849,7 +30874,7 @@ to the side labeled "SPI".</text>
 <label x="309.88" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="5V" class="0">
+<net name="5V" class="5">
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="40.64" y1="182.88" x2="43.18" y2="182.88" width="0.1524" layer="91"/>
@@ -30885,7 +30910,7 @@ to the side labeled "SPI".</text>
 <label x="83.82" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="N$16" class="5">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="182.88" x2="35.56" y2="182.88" width="0.1524" layer="91"/>
@@ -30921,7 +30946,7 @@ to the side labeled "SPI".</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="N$14" class="5">
 <segment>
 <pinref part="R15" gate="&gt;NAME" pin="2"/>
 <pinref part="U8" gate="U1" pin="V_USB"/>
