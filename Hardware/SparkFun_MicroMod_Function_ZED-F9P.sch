@@ -28448,25 +28448,39 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <clearance class="0" value="0.46"/>
 <clearance class="1" value="0.64"/>
 <clearance class="2" value="0.46"/>
+<clearance class="3" value="0.1"/>
 </class>
-<class number="4" name="3.3V" width="0" drill="0">
+<class number="4" name="3.3V" width="0.2" drill="0">
+<clearance class="1" value="0.2"/>
 </class>
 <class number="5" name="5V" width="0" drill="0">
+<clearance class="1" value="0.2"/>
 <clearance class="4" value="0.1"/>
 </class>
-<class number="6" name="USB_DIFF" width="0" drill="0">
+<class number="6" name="USB_DIFF" width="0.2" drill="0">
 </class>
 <class number="7" name="V_ZED" width="0" drill="0">
+<clearance class="1" value="0.2"/>
+<clearance class="2" value="0.2"/>
 <clearance class="4" value="0.64"/>
 </class>
-<class number="8" name="V_RF" width="0.35" drill="0">
+<class number="8" name="V_RF" width="0.2" drill="0">
 <clearance class="2" value="0.46"/>
 </class>
-<class number="9" name="PPS_DIFF" width="0" drill="0">
+<class number="9" name="PPS_DIFF" width="0.2" drill="0">
 </class>
-<class number="10" name="DIGITAL" width="0" drill="0">
+<class number="10" name="DIGITAL" width="0.09" drill="0">
+<clearance class="0" value="0.1"/>
+<clearance class="1" value="0.1"/>
+<clearance class="10" value="0.1"/>
 </class>
-<class number="11" name="ZED_DIG" width="0" drill="0">
+<class number="11" name="ZED_DIG" width="0.1" drill="0">
+<clearance class="0" value="0.2"/>
+<clearance class="1" value="0.2"/>
+<clearance class="2" value="0.2"/>
+<clearance class="3" value="0.46"/>
+<clearance class="7" value="0.1"/>
+<clearance class="11" value="0.1"/>
 </class>
 </classes>
 <parts>
@@ -29677,14 +29691,14 @@ to the side labeled "SPI".</text>
 <label x="38.1" y="30.48" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="USBC_P" class="6">
 <segment>
 <wire x1="40.64" y1="248.92" x2="73.66" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="J1" gate="J1" pin="D+"/>
 <pinref part="D3" gate="D1" pin="3"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="USBC_N" class="6">
 <segment>
 <wire x1="40.64" y1="246.38" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="246.38" x2="71.12" y2="238.76" width="0.1524" layer="91"/>
@@ -29735,14 +29749,14 @@ to the side labeled "SPI".</text>
 <wire x1="25.4" y1="152.4" x2="17.78" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="USB_P" class="6">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="248.92" x2="99.06" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="D3" gate="D1" pin="4"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="USB_N" class="6">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="238.76" x2="99.06" y2="238.76" width="0.1524" layer="91"/>
@@ -30946,7 +30960,7 @@ to the side labeled "SPI".</text>
 <pinref part="R11" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$14" class="5">
+<net name="N$14" class="4">
 <segment>
 <pinref part="R15" gate="&gt;NAME" pin="2"/>
 <pinref part="U8" gate="U1" pin="V_USB"/>
