@@ -26017,6 +26017,59 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="MS421R_IV03E">
+<description>&lt;h3&gt;SEIKO MS421R Reflowable Lithium Battery&lt;/h3&gt;
+
+&lt;p&gt;
+ML414H is a rechargeable, coin type battery with features
+such as Pb-free reflowable (Peak temperature: 260 C) and
+high temperature heat resistance.
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;3.3V&lt;/li&gt;
+&lt;li&gt;1.5mAH&lt;/li&gt;
+&lt;li&gt;4.8mm Diameter&lt;/li&gt;
+&lt;li&gt;10uA Discharge Rater&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/pdf/Data%20Sheets/Seiko%20Instruments%20PDFs/MS421R_MS621R_DS.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
+<smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
+<polygon width="0.05" layer="1">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="29">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<polygon width="0.05" layer="31">
+<vertex x="0.28" y="2.68"/>
+<vertex x="2.68" y="2.68"/>
+<vertex x="2.68" y="0.28"/>
+</polygon>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="31"/>
+<rectangle x1="-1.5" y1="-2.7" x2="2.7" y2="-1" layer="29"/>
+<smd name="+" x="2.022" y="2.032" dx="1" dy="1" layer="1" stop="no" cream="no"/>
+<text x="-1.016" y="2.921" size="0.381" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-3.302" size="0.381" layer="27">&gt;VALUE</text>
+<polygon width="0.02" layer="51">
+<vertex x="-1.1" y="-2.4"/>
+<vertex x="2.4" y="-2.4"/>
+<vertex x="2.4" y="-1.01"/>
+<vertex x="-1.1" y="-1.01"/>
+</polygon>
+<polygon width="0.02" layer="51">
+<vertex x="0.8" y="2.4"/>
+<vertex x="2.4" y="2.4"/>
+<vertex x="2.4" y="0.8"/>
+</polygon>
+<wire x1="0.1778" y1="2.3876" x2="-1.7526" y2="-1.6256" width="0.1524" layer="21" curve="138.113903"/>
+<wire x1="2.3876" y1="0.3302" x2="2.2606" y2="-0.8128" width="0.1524" layer="21" curve="-38.722851"/>
+</package>
 <package name="ML414H_IV01E">
 <description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
 
@@ -26029,8 +26082,12 @@ high temperature heat resistance.
 &lt;ul&gt;
 &lt;li&gt;3V&lt;/li&gt;
 &lt;li&gt;1mAH&lt;/li&gt;
-&lt;li&gt;4.8mm Diamter&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;li&gt;4.8mm Diameter&lt;/li&gt;
+&lt;li&gt;5uA Discharge Rate&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+&lt;a href="https://media.digikey.com/PDF/Data%20Sheets/Seiko%20Instruments%20PDFs/ML414H_E.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/p&gt;</description>
 <circle x="0" y="0" radius="2.4" width="0.0508" layer="51"/>
 <smd name="-" x="0.6" y="-1.85" dx="4.2" dy="1.7" layer="1" stop="no" cream="no"/>
 <polygon width="0.05" layer="1">
@@ -26070,7 +26127,7 @@ high temperature heat resistance.
 </packages>
 <symbols>
 <symbol name="BATTERY">
-<description>&lt;h3&gt;Battery (Single-Cell)&lt;/h3&gt;</description>
+<description>&lt;h3&gt;Battery&lt;/h3&gt;</description>
 <wire x1="-1.27" y1="3.81" x2="-1.27" y2="-3.81" width="0.4064" layer="94"/>
 <wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="3.81" x2="1.27" y2="-3.81" width="0.4064" layer="94"/>
@@ -26083,30 +26140,13 @@ high temperature heat resistance.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ML414H_IV01E_BATTERY" prefix="BT">
-<description>&lt;h3&gt;SEIKO ML414H-IV01E Reflowable Lithium Battery&lt;/h3&gt;
-
-&lt;p&gt;
-ML414H is a rechargeable, coin type battery with features
-such as Pb-free reflowable (Peak temperature: 260 C) and
-high temperature heat resistance.
-&lt;/p&gt;
-
-Battery Characteristics: 
-&lt;ul&gt;
-&lt;li&gt;3.1V max voltage&lt;/li&gt;
-&lt;li&gt;Voff is 2V&lt;/li&gt;
-&lt;li&gt;1mAH&lt;/li&gt;
-&lt;li&gt;3k series resistor with battery&lt;/li&gt;
-&lt;li&gt;72 hour charge time from 2.0-3.1V&lt;/li&gt;
-&lt;li&gt;2.3-2.8V initial charge&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+<deviceset name="RELOWABLE_BATTERY" prefix="BT">
+<description>&lt;h3&gt;SEIKO Reflowable Lithium Batteries&lt;/h3&gt;</description>
 <gates>
 <gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ML414H_IV01E">
+<device name="_ML414H" package="ML414H_IV01E">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -26114,6 +26154,17 @@ Battery Characteristics:
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="BATT-14267" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_MS421R" package="MS421R_IV03E">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="BAT-16685" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -28495,7 +28546,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-PMEG4005EJ" value="0.5A/40V/420mV"/>
-<part name="BT1" library="SparkFun-Batteries" deviceset="ML414H_IV01E_BATTERY" device=""/>
+<part name="BT1" library="SparkFun-Batteries" deviceset="RELOWABLE_BATTERY" device="_MS421R"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="D7" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
@@ -28690,12 +28741,12 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <text x="228.854" y="176.53" size="1.27" layer="97" font="vector">Dielectric thickness: 0.18mm</text>
 <text x="228.854" y="184.15" size="1.524" layer="97" font="vector" ratio="15">Co-planar Calculation:</text>
 <text x="228.854" y="163.83" size="1.27" layer="97" font="vector">Calculated Impedance: 49.98 Ohm</text>
-<text x="104.14" y="142.24" size="1.27" layer="97" font="vector">*Battery Initial Charge: 2.3-2.8V
+<text x="104.14" y="142.24" size="1.27" layer="97" font="vector">*Battery Initial Charge: 2.8-3.3V
 *Intial Battery Capacity (maH): 
-    800mAH or Greater
+    1.5mAh
 *Battery Charge Rate: 1mA MAX
 *Voff: 2.0V
-*72 hours charge time from 2.0-3.1V</text>
+*120 hours charge time from 2.0-3.1V</text>
 <text x="269.494" y="237.49" size="1.27" layer="97" font="vector" align="bottom-right">Place capacitor as 
 close as possible to 
 module.</text>
@@ -28861,7 +28912,6 @@ to the side labeled "SPI".</text>
 </instance>
 <instance part="BT1" gate="G$1" x="96.52" y="157.48" smashed="yes" rot="R270">
 <attribute name="NAME" x="104.14" y="159.258" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="116.84" y="158.242" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="D6" gate="G$1" x="99.06" y="111.76" smashed="yes" rot="MR270">
 <attribute name="NAME" x="98.552" y="112.649" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -29894,9 +29944,9 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y6"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
-<label x="116.84" y="17.78" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="J1" pin="F6"/>
+<wire x1="116.84" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="F5"/>
+<label x="116.84" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GEO_STAT" class="10">
@@ -29906,9 +29956,9 @@ to the side labeled "SPI".</text>
 <pinref part="U7" gate="G$1" pin="Y7"/>
 </segment>
 <segment>
-<wire x1="116.84" y1="20.32" x2="114.3" y2="20.32" width="0.1524" layer="91"/>
-<label x="116.84" y="20.32" size="1.27" layer="95" xref="yes"/>
-<pinref part="J2" gate="J1" pin="F5"/>
+<wire x1="116.84" y1="17.78" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J2" gate="J1" pin="F6"/>
+<label x="116.84" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ZED_SCL/SCK" class="11">
