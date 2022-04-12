@@ -28488,6 +28488,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <clearance class="1" value="0.64"/>
 <clearance class="2" value="0.2"/>
 <clearance class="4" value="0.64"/>
+<clearance class="5" value="0.2"/>
 </class>
 <class number="8" name="V_RF" width="0.2" drill="0">
 <clearance class="2" value="0.46"/>
@@ -28744,7 +28745,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <text x="104.14" y="142.24" size="1.27" layer="97" font="vector">*Battery Initial Charge: 2.8-3.3V
 *Intial Battery Capacity (maH): 
     1.5mAh
-*Battery Charge Rate: 1mA MAX
+*Battery Charge Rate: 0.03mA MAX
 *Voff: 2.0V
 *120 hours charge time from 2.0-3.1V</text>
 <text x="269.494" y="237.49" size="1.27" layer="97" font="vector" align="bottom-right">Place capacitor as 
@@ -29823,7 +29824,7 @@ to the side labeled "SPI".</text>
 <label x="27.94" y="111.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="V_BATT" class="4">
+<net name="V_BATT" class="5">
 <segment>
 <wire x1="96.52" y1="162.56" x2="96.52" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
