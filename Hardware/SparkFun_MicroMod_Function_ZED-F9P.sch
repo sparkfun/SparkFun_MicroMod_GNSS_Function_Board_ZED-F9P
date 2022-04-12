@@ -27157,23 +27157,18 @@ CAP-09321</description>
 <library name="MicroMod_Function_GNSS_ublox_ZED_F9P">
 <packages>
 <package name="SC-70-5_DCK">
-<rectangle x1="-0.85" y1="-1.55" x2="-0.45" y2="-0.65" layer="1"/>
 <rectangle x1="-0.9" y1="-1.6" x2="-0.4" y2="-0.6" layer="29"/>
 <rectangle x1="-0.825" y1="-1.525" x2="-0.475" y2="-0.675" layer="31"/>
 <smd name="P$1" x="-0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-0.2" y1="-1.55" x2="0.2" y2="-0.65" layer="1"/>
 <rectangle x1="-0.25" y1="-1.6" x2="0.25" y2="-0.6" layer="29"/>
 <rectangle x1="-0.175" y1="-1.525" x2="0.175" y2="-0.675" layer="31"/>
 <smd name="P$2" x="0" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="0.45" y1="-1.55" x2="0.85" y2="-0.65" layer="1"/>
 <rectangle x1="0.4" y1="-1.6" x2="0.9" y2="-0.6" layer="29"/>
 <rectangle x1="0.475" y1="-1.525" x2="0.825" y2="-0.675" layer="31"/>
 <smd name="P$3" x="0.65" y="-1.1" dx="0.9" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="0.45" y1="0.65" x2="0.85" y2="1.55" layer="1"/>
 <rectangle x1="0.4" y1="0.6" x2="0.9" y2="1.6" layer="29"/>
 <rectangle x1="0.475" y1="0.675" x2="0.825" y2="1.525" layer="31"/>
 <smd name="P$4" x="0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<rectangle x1="-0.85" y1="0.65" x2="-0.45" y2="1.55" layer="1"/>
 <rectangle x1="-0.9" y1="0.6" x2="-0.4" y2="1.6" layer="29"/>
 <rectangle x1="-0.825" y1="0.675" x2="-0.475" y2="1.525" layer="31"/>
 <smd name="P$5" x="-0.65" y="1.1" dx="0.9" dy="0.4" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -27188,67 +27183,46 @@ CAP-09321</description>
 <text x="1.4" y="-1.5" size="0.61" layer="27" font="vector" ratio="20" rot="R90" align="top-left">&gt;VALUE</text>
 </package>
 <package name="DHVQFN20">
-<rectangle x1="-1.895" y1="0.85" x2="-1.605" y2="1.85" layer="1"/>
 <rectangle x1="-1.87" y1="0.875" x2="-1.63" y2="1.825" layer="31"/>
 <rectangle x1="-1.945" y1="0.8" x2="-1.555" y2="1.9" layer="29"/>
-<rectangle x1="-1.395" y1="0.85" x2="-1.105" y2="1.85" layer="1"/>
 <rectangle x1="-1.37" y1="0.875" x2="-1.13" y2="1.825" layer="31"/>
 <rectangle x1="-1.445" y1="0.8" x2="-1.055" y2="1.9" layer="29"/>
-<rectangle x1="-0.895" y1="0.85" x2="-0.605" y2="1.85" layer="1"/>
 <rectangle x1="-0.87" y1="0.875" x2="-0.63" y2="1.825" layer="31"/>
 <rectangle x1="-0.945" y1="0.8" x2="-0.555" y2="1.9" layer="29"/>
-<rectangle x1="-0.395" y1="0.85" x2="-0.105" y2="1.85" layer="1"/>
 <rectangle x1="-0.37" y1="0.875" x2="-0.13" y2="1.825" layer="31"/>
 <rectangle x1="-0.445" y1="0.8" x2="-0.055" y2="1.9" layer="29"/>
-<rectangle x1="0.105" y1="0.85" x2="0.395" y2="1.85" layer="1"/>
 <rectangle x1="0.13" y1="0.875" x2="0.37" y2="1.825" layer="31"/>
 <rectangle x1="0.055" y1="0.8" x2="0.445" y2="1.9" layer="29"/>
-<rectangle x1="0.605" y1="0.85" x2="0.895" y2="1.85" layer="1"/>
 <rectangle x1="0.63" y1="0.875" x2="0.87" y2="1.825" layer="31"/>
 <rectangle x1="0.555" y1="0.8" x2="0.945" y2="1.9" layer="29"/>
-<rectangle x1="1.105" y1="0.85" x2="1.395" y2="1.85" layer="1"/>
 <rectangle x1="1.13" y1="0.875" x2="1.37" y2="1.825" layer="31"/>
 <rectangle x1="1.055" y1="0.8" x2="1.445" y2="1.9" layer="29"/>
-<rectangle x1="1.605" y1="0.85" x2="1.895" y2="1.85" layer="1"/>
 <rectangle x1="1.63" y1="0.875" x2="1.87" y2="1.825" layer="31"/>
 <rectangle x1="1.555" y1="0.8" x2="1.945" y2="1.9" layer="29"/>
-<rectangle x1="-1.895" y1="-1.85" x2="-1.605" y2="-0.85" layer="1"/>
 <rectangle x1="-1.87" y1="-1.825" x2="-1.63" y2="-0.875" layer="31"/>
 <rectangle x1="-1.945" y1="-1.9" x2="-1.555" y2="-0.8" layer="29"/>
-<rectangle x1="-1.395" y1="-1.85" x2="-1.105" y2="-0.85" layer="1"/>
 <rectangle x1="-1.37" y1="-1.825" x2="-1.13" y2="-0.875" layer="31"/>
 <rectangle x1="-1.445" y1="-1.9" x2="-1.055" y2="-0.8" layer="29"/>
-<rectangle x1="-0.895" y1="-1.85" x2="-0.605" y2="-0.85" layer="1"/>
 <rectangle x1="-0.87" y1="-1.825" x2="-0.63" y2="-0.875" layer="31"/>
 <rectangle x1="-0.945" y1="-1.9" x2="-0.555" y2="-0.8" layer="29"/>
-<rectangle x1="-0.395" y1="-1.85" x2="-0.105" y2="-0.85" layer="1"/>
 <rectangle x1="-0.37" y1="-1.825" x2="-0.13" y2="-0.875" layer="31"/>
 <rectangle x1="-0.445" y1="-1.9" x2="-0.055" y2="-0.8" layer="29"/>
-<rectangle x1="0.105" y1="-1.85" x2="0.395" y2="-0.85" layer="1"/>
 <rectangle x1="0.13" y1="-1.825" x2="0.37" y2="-0.875" layer="31"/>
 <rectangle x1="0.055" y1="-1.9" x2="0.445" y2="-0.8" layer="29"/>
-<rectangle x1="0.605" y1="-1.85" x2="0.895" y2="-0.85" layer="1"/>
 <rectangle x1="0.63" y1="-1.825" x2="0.87" y2="-0.875" layer="31"/>
 <rectangle x1="0.555" y1="-1.9" x2="0.945" y2="-0.8" layer="29"/>
-<rectangle x1="1.105" y1="-1.85" x2="1.395" y2="-0.85" layer="1"/>
 <rectangle x1="1.13" y1="-1.825" x2="1.37" y2="-0.875" layer="31"/>
 <rectangle x1="1.055" y1="-1.9" x2="1.445" y2="-0.8" layer="29"/>
-<rectangle x1="1.605" y1="-1.85" x2="1.895" y2="-0.85" layer="1"/>
 <rectangle x1="1.63" y1="-1.825" x2="1.87" y2="-0.875" layer="31"/>
 <rectangle x1="1.555" y1="-1.9" x2="1.945" y2="-0.8" layer="29"/>
-<rectangle x1="-1.45" y1="-0.45" x2="1.45" y2="0.45" layer="1"/>
 <rectangle x1="-0.85" y1="-0.2" x2="-0.2" y2="0.2" layer="31"/>
 <rectangle x1="0.2" y1="-0.2" x2="0.85" y2="0.2" layer="31"/>
-<rectangle x1="-2.395" y1="-0.75" x2="-2.105" y2="0.25" layer="1" rot="R90"/>
 <rectangle x1="-2.37" y1="-0.725" x2="-2.13" y2="0.225" layer="31" rot="R90"/>
 <rectangle x1="-2.445" y1="-0.8" x2="-2.055" y2="0.3" layer="29" rot="R90"/>
-<rectangle x1="-2.395" y1="-0.25" x2="-2.105" y2="0.75" layer="1" rot="R90"/>
 <rectangle x1="-2.37" y1="-0.225" x2="-2.13" y2="0.725" layer="31" rot="R90"/>
 <rectangle x1="-2.445" y1="-0.3" x2="-2.055" y2="0.8" layer="29" rot="R90"/>
-<rectangle x1="2.105" y1="-0.75" x2="2.395" y2="0.25" layer="1" rot="R90"/>
 <rectangle x1="2.13" y1="-0.725" x2="2.37" y2="0.225" layer="31" rot="R90"/>
 <rectangle x1="2.055" y1="-0.8" x2="2.445" y2="0.3" layer="29" rot="R90"/>
-<rectangle x1="2.105" y1="-0.25" x2="2.395" y2="0.75" layer="1" rot="R90"/>
 <rectangle x1="2.13" y1="-0.225" x2="2.37" y2="0.725" layer="31" rot="R90"/>
 <rectangle x1="2.055" y1="-0.3" x2="2.445" y2="0.8" layer="29" rot="R90"/>
 <wire x1="-2.4" y1="1.4" x2="-2.4" y2="-1.4" width="0.1" layer="51"/>
@@ -27273,7 +27247,7 @@ CAP-09321</description>
 <smd name="P$7" x="0.75" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$8" x="1.25" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$9" x="1.75" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="P$10" x="2.25" y="-0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$10" x="2.25" y="-0.25" dx="0.99" dy="0.28" layer="1" stop="no" cream="no"/>
 <smd name="P$11" x="2.25" y="0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="P$12" x="1.75" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$13" x="1.25" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -27284,7 +27258,7 @@ CAP-09321</description>
 <smd name="P$18" x="-1.25" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$19" x="-1.75" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$20" x="-2.25" y="0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$21" x="0" y="0" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$21" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="ZED-F9P">
 <wire x1="11" y1="8.5" x2="11" y2="-8.5" width="0.127" layer="51"/>
@@ -28460,7 +28434,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <class number="6" name="USB_DIFF" width="0.2" drill="0">
 </class>
 <class number="7" name="V_ZED" width="0" drill="0">
-<clearance class="1" value="0.2"/>
+<clearance class="1" value="0.64"/>
 <clearance class="2" value="0.2"/>
 <clearance class="4" value="0.64"/>
 </class>
@@ -28621,7 +28595,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
