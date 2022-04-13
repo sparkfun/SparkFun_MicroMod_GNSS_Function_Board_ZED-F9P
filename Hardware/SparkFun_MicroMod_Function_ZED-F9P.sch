@@ -28483,6 +28483,8 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <clearance class="4" value="0.1"/>
 </class>
 <class number="6" name="USB_DIFF" width="0.2" drill="0">
+<clearance class="0" value="0.2"/>
+<clearance class="6" value="0.2"/>
 </class>
 <class number="7" name="V_ZED" width="0" drill="0">
 <clearance class="1" value="0.64"/>
@@ -28491,7 +28493,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <clearance class="5" value="0.2"/>
 </class>
 <class number="8" name="V_RF" width="0.2" drill="0">
-<clearance class="2" value="0.46"/>
+<clearance class="2" value="0.2"/>
 </class>
 <class number="9" name="PPS_DIFF" width="0.2" drill="0">
 </class>
