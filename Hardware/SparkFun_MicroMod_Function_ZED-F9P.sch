@@ -13388,6 +13388,18 @@ CAP-09321</description>
 <text x="1.4" y="-1.5" size="0.61" layer="27" font="vector" ratio="20" rot="R90" align="top-left">&gt;VALUE</text>
 </package>
 <package name="DHVQFN20">
+<description>&lt;h3&gt;DHVQFN20 - 20-pin plastic, leadless, very thin quad flat package &lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 0.29mm x 0.9mm&lt;/li&gt;
+&lt;li&gt;Pin count: 20&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;li&gt;Package Size: 2.5mm x 4.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://assets.nexperia.com/documents/package-information/SOT764-1.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;74LVC541A&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <rectangle x1="-1.87" y1="0.875" x2="-1.63" y2="1.825" layer="31"/>
 <rectangle x1="-1.945" y1="0.8" x2="-1.555" y2="1.9" layer="29"/>
 <rectangle x1="-1.37" y1="0.875" x2="-1.13" y2="1.825" layer="31"/>
@@ -13434,15 +13446,15 @@ CAP-09321</description>
 <wire x1="-2.4" y1="-1.4" x2="2.4" y2="-1.4" width="0.1" layer="51"/>
 <wire x1="2.4" y1="-1.4" x2="2.4" y2="1.4" width="0.1" layer="51"/>
 <wire x1="2.4" y1="1.4" x2="-2.4" y2="1.4" width="0.1" layer="51"/>
-<wire x1="-2" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="-0.6" width="0.1" layer="21"/>
-<wire x1="-2" y1="1.5" x2="-2.5" y2="1.5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="-2.5" y2="0.5" width="0.1" layer="21"/>
-<wire x1="2" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="21"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="0.5" width="0.1" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2.5" y2="-1.5" width="0.1" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="2.5" y2="-0.5" width="0.1" layer="21"/>
-<circle x="-3" y="-0.8" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-1.5" x2="-2.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-2.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="0.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1.5" x2="2.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="0.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1.5" x2="2.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="-0.6" width="0.2" layer="21"/>
+<circle x="-3" y="-0.8" radius="0.2" width="0" layer="21"/>
 <smd name="P$1" x="-2.25" y="-0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="P$2" x="-1.75" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$3" x="-1.25" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -13463,7 +13475,10 @@ CAP-09321</description>
 <smd name="P$18" x="-1.25" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$19" x="-1.75" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$20" x="-2.25" y="0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$21" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="EPAD" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-3" y1="-2.1" x2="2.9" y2="2.1" layer="39"/>
+<text x="-2.6" y="2.2" size="0.6" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-2.5" y="-2.8" size="0.6" layer="27" font="vector" ratio="20">&gt;Value</text>
 </package>
 <package name="ZED-F9P">
 <wire x1="11" y1="8.5" x2="11" y2="-8.5" width="0.127" layer="51"/>
@@ -13723,6 +13738,9 @@ CAP-09321</description>
 <text x="-0.9" y="-0.8" size="0.2" layer="51" font="vector">G</text>
 <text x="0.8" y="-0.8" size="0.2" layer="51" font="vector">S</text>
 <text x="0.4" y="0.8" size="0.2" layer="51" font="vector">D</text>
+<text x="-1" y="1.2" size="0.6" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1" y="-1.7" size="0.6" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.9" y1="-0.9" x2="1" y2="1" layer="39"/>
 </package>
 <package name="0402_MURATA">
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
@@ -13781,32 +13799,44 @@ CAP-09321</description>
 </polygon>
 </package>
 <package name="USON_DRY0006A">
-<smd name="P$1" x="0" y="0" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<description>&lt;h3&gt;DRY0006A (S-PUSON-N6) - 6-pin, plastic small outline - no lead&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 0.35mm x 0.2mm&lt;/li&gt;
+&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;li&gt;Package Size: 1.0mm x 1.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.ti.com/lit/ml/qfnd138e/qfnd138e.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SN74LVC1G66&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-0.15" x2="0.225" y2="0.15" layer="29"/>
 <rectangle x1="-0.175" y1="-0.1" x2="0.175" y2="0.1" layer="31"/>
-<smd name="P$2" x="0" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-0.65" x2="0.225" y2="-0.35" layer="29"/>
 <rectangle x1="-0.175" y1="-0.6" x2="0.175" y2="-0.4" layer="31"/>
-<smd name="P$3" x="0" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="0" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-1.15" x2="0.225" y2="-0.85" layer="29"/>
 <rectangle x1="-0.175" y1="-1.1" x2="0.175" y2="-0.9" layer="31"/>
-<smd name="P$4" x="0.6" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$4" x="0.6" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-1.15" x2="0.825" y2="-0.85" layer="29"/>
 <rectangle x1="0.425" y1="-1.1" x2="0.775" y2="-0.9" layer="31"/>
-<smd name="P$5" x="0.6" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$5" x="0.6" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-0.65" x2="0.825" y2="-0.35" layer="29"/>
 <rectangle x1="0.425" y1="-0.6" x2="0.775" y2="-0.4" layer="31"/>
-<smd name="P$6" x="0.6" y="0" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$6" x="0.6" y="0" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-0.15" x2="0.825" y2="0.15" layer="29"/>
 <rectangle x1="0.425" y1="-0.1" x2="0.775" y2="0.1" layer="31"/>
 <wire x1="-0.22" y1="0.15" x2="-0.22" y2="-1.15" width="0.05" layer="51"/>
 <wire x1="-0.22" y1="-1.15" x2="0.82" y2="-1.15" width="0.05" layer="51"/>
 <wire x1="0.82" y1="-1.15" x2="0.82" y2="0.15" width="0.05" layer="51"/>
 <wire x1="0.82" y1="0.15" x2="-0.22" y2="0.15" width="0.05" layer="51"/>
-<wire x1="0.54" y1="0.33" x2="1.04" y2="0.33" width="0.16" layer="21"/>
-<wire x1="1.04" y1="0.33" x2="1.04" y2="-0.17" width="0.16" layer="21"/>
-<wire x1="0.06" y1="-1.33" x2="-0.44" y2="-1.33" width="0.16" layer="21"/>
-<wire x1="-0.44" y1="-1.33" x2="-0.44" y2="-0.83" width="0.16" layer="21"/>
+<wire x1="0.5" y1="0.3" x2="1" y2="0.3" width="0.1" layer="21"/>
+<wire x1="1" y1="0.3" x2="1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="0.1" y1="-1.3" x2="-0.4" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-0.8" width="0.1" layer="21"/>
 <circle x="-0.4" y="0.5" radius="0.1" width="0.254" layer="21"/>
 </package>
 </packages>
@@ -13841,6 +13871,11 @@ CAP-09321</description>
 <text x="-4.572" y="2.794" size="1.016" layer="94">VCC</text>
 </symbol>
 <symbol name="GATE_BUFFER_OCTAL">
+<description>&lt;h3&gt;Nexperia 74LVC541A - 3-state octal buffer with 5V tolerant I/O&lt;/h3&gt;
+&lt;p&gt;The 74LVC541A is an 8-bit buffer/line driver with 3-state outputs. The device features two
+output enables (OE1 and OE2). A HIGH on OEn causes the associated outputs to assume a
+high-impedance OFF-state . Inputs can be driven from either 3.3 V or 5 V devices. This feature
+allows the use of these devices as translators in mixed 3.3 V and 5 V environments.&lt;/p&gt;</description>
 <wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="27.94" x2="-12.7" y2="27.94" width="0.254" layer="94"/>
@@ -13977,8 +14012,8 @@ CAP-09321</description>
 <wire x1="0" y1="12.7" x2="0" y2="10.922" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
 <wire x1="0" y1="17.78" x2="0" y2="16.002" width="0.254" layer="94"/>
-<text x="-12.7" y="27.94" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-30.48" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="30.48" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-30.48" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="AGND">
 <description>&lt;h3&gt;Analog Ground Supply&lt;/h3&gt;</description>
@@ -14103,6 +14138,9 @@ Switches electrical signals</description>
 <text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="SN74LVC1G66_SPST_AMUX">
+<description>&lt;h3&gt;Texas Instruments SN74LVC1G66 - Single Bilateral Analog Switch&lt;/h3&gt;
+&lt;p&gt;This single analog switch is designed for 1.65-V to 5.5-V VCC operation. The SN74LVC1G66 device can handle analog and
+digital signals. The device permits bidirectional transmission of signals with amplitudes of up to 5.5 V (peak).&lt;/p&gt;</description>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="2.54" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
@@ -14122,23 +14160,25 @@ Switches electrical signals</description>
 <wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0" x2="3.81" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="0" y2="1.524" width="0.254" layer="94"/>
-<text x="2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="2.54" y="7.62" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="SN74AUP1T04" prefix="U">
-<description>&lt;b&gt;Single Inverter&lt;/b&gt;&lt;p&gt;IC NOT GATE INVERTER SNGL 1IN SOT23-5&lt;br&gt;
-Supply: 2.3V to 3.6V&lt;br&gt;
-&lt;br&gt;
-&lt;a href="https://www.ti.com/lit/ds/symlink/sn74aup1t04.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;SparkFun Products&lt;/b&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;/ol&gt;</description>
+<description>&lt;h3&gt;Texas Instruments SN74AUP1T04 - Single Inverter Gate&lt;/h3&gt;
+&lt;p&gt;The SN74AUP1T04 performs the Boolean function Y = !A! with designation for logic-level translation applications
+with output referenced to supply VCC. &lt;/p&gt;
+&lt;p&gt;AUP technology is the industry's lowest-power logic technology designed for use in extending battery-life in
+operating. All input levels that accept 1.8-V LVCMOS signals, while operating from either a single 3.3-V or 2.5-V
+VCC supply. This product also maintains excellent signal integrity. The wide VCC range of 2.3 V to 3.6 V allows the possibility of switching output level to connect to external controllers or processors. &lt;/p&gt;
+&lt;p&gt;Schmitt-trigger inputs (ΔVT = 210 mV between positive and negative input transitions) offer improved noise
+immunity during switching transitions, which is especially useful on analog mixed-mode designs. Schmitt-trigger
+inputs reject input noise, ensure integrity of output signals, and allow for slow input signal transition.
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=””&gt;SparkFun MicroMod u-blox ZED-F9P Function Board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="GATE_INVERTER" x="0" y="0"/>
 </gates>
@@ -14151,7 +14191,10 @@ Supply: 2.3V to 3.6V&lt;br&gt;
 <connect gate="G$1" pin="Y" pad="P$4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="SN74AUP1T04" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14163,7 +14206,10 @@ Supply: 2.3V to 3.6V&lt;br&gt;
 output enables (OE1 and OE2). A HIGH on OEn causes the associated outputs to assume a
 high-impedance OFF-state . Inputs can be driven from either 3.3 V or 5 V devices. This feature
 allows the use of these devices as translators in mixed 3.3 V and 5 V environments.
-&lt;p&gt;Schmitt-trigger action at all inputs makes the circuit tolerant of slower input rise and fall times</description>
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=""&gt;MicroMod Function u-blox ZED-F9P board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="GATE_BUFFER_OCTAL" x="0" y="0"/>
 </gates>
@@ -14180,7 +14226,7 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <connect gate="G$1" pin="A5" pad="P$7"/>
 <connect gate="G$1" pin="A6" pad="P$8"/>
 <connect gate="G$1" pin="A7" pad="P$9"/>
-<connect gate="G$1" pin="GND" pad="P$10 P$21"/>
+<connect gate="G$1" pin="GND" pad="EPAD P$10"/>
 <connect gate="G$1" pin="VCC" pad="P$20"/>
 <connect gate="G$1" pin="Y0" pad="P$18"/>
 <connect gate="G$1" pin="Y1" pad="P$17"/>
@@ -14192,7 +14238,10 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <connect gate="G$1" pin="Y7" pad="P$11"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="74LVC541A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14263,6 +14312,20 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 </devices>
 </deviceset>
 <deviceset name="CBR04C470J5GAC" prefix="C">
+<description>&lt;h3&gt;Kemet CBR04C470J5GAC - 47pF 5% 50V 0402 Capacitor&lt;/h3&gt;
+&lt;p&gt;KEMET’s HiQ CBR RF Capacitor Series features a copper
+electrode BME (Base Metal Electrode) system that offers
+ultra-low ESR and High Q in the VHF, UHF, and microwave
+frequency bands. Low ESR allows for higher RF currents
+which are ideal for applications such as cellular base stations
+and telecommunication networks.
+CBR Series capacitors exhibit no change in capacitance with
+respect to time and voltage, and boast a negligible change in
+capacitance with reference to ambient temperature.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=””&gt;SparkFun MicroMod Function Board ZED-F9P&lt;/a&gt;&lt;/li&gt;
+
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -14274,8 +14337,9 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 </connects>
 <technologies>
 <technology name="">
-<attribute name="CAPACITANCE" value="47pF" constant="no"/>
+<attribute name="PROD_ID" value="NA" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
+<attribute name="VALUE" value="47pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V"/>
 </technology>
 </technologies>
@@ -14283,23 +14347,40 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 </devices>
 </deviceset>
 <deviceset name="DMP21D0UT" prefix="Q">
+<description>&lt;h3&gt;Diodes Inc. DMP21D0UT - 20V P-CHANNEL ENHANCEMENT MODE MOSFET&lt;/h3&gt;
+&lt;p&gt;This MOSFET has been designed to minimize the on-state resistance
+(R_DS(on)) and yet maintain superior switching performance, making it
+ideal for high efficiency power management applications.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=””&gt;SparkFun MicroMod u-blox ZED-F9P Function Board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LABELED-PMOS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT523">
+<device name="-7" package="SOT523">
 <connects>
 <connect gate="G$1" pin="D" pad="P$1"/>
 <connect gate="G$1" pin="G" pad="P$3"/>
 <connect gate="G$1" pin="S" pad="P$2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="I_D" value="590mA" constant="no"/>
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="DMP21D0UT-7" constant="no"/>
+<attribute name="V_DSS" value="-20V" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="LQW15AWR15J80D" prefix="L">
+<description>&lt;h3&gt;Murata LQW15AW_08 series- 0402 Chip Inductors&lt;/h3&gt;
+&lt;p&gt;Chip Inductor&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=””&gt;SparkFun MicroMod u-blox ZED-F9P Function Board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
@@ -14313,18 +14394,30 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <technology name="">
 <attribute name="CURRENT" value="280mA"/>
 <attribute name="DCRESISTANCE" value="1.71Ohm"/>
-<attribute name="INDUCTANCE" value="150nH"/>
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="150nH" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FIN1017MX" prefix="U">
+<deviceset name="FIN1017" prefix="U">
+<description>&lt;h3&gt;OnSemi FIN1017 - 3.3V LVDS, 1-Bit, High-Speed Differential Driver&lt;/h3&gt;
+&lt;p&gt;This single driver is designed for high-speed
+interconnects utilizing Low Voltage Differential Signaling
+(LVDS) technology. The driver translates LVTTL signal
+levels to LVDS levels with a typical differential output
+swing of 350mV, which provides low EMI at ultra-low
+power dissipation even at high frequencies. This device
+is ideal for high-speed transfer of clock or data.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=””&gt;SparkFun MicroMod u-blox ZED-F9P Function Board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="LVDS_1BIT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SOIC-8" package="SO08">
+<device name="MX" package="SO08">
 <connects>
 <connect gate="G$1" pin="DIN" pad="2"/>
 <connect gate="G$1" pin="DO+" pad="7"/>
@@ -14333,17 +14426,25 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="FIN1017MX" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SN74LVC1G66DRYR" prefix="U">
+<deviceset name="SN74LVC1G66" prefix="U">
+<description>&lt;h3&gt;Texas Instruments SN74LVC1G66 - Single Bilateral Analog Switch&lt;/h3&gt;
+&lt;p&gt;The SN74LVC1G66 device can handle analog and digital signals. The device permits bidirectional transmission of signals with amplitudes of up to 5.5 V (peak).&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”[PRODUCT1LINK]”&gt;SparkFun MicroMod u-blox ZED-F9P Function Board&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="SN74LVC1G66_SPST_AMUX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="USON_DRY0006A">
+<device name="DRYR" package="USON_DRY0006A">
 <connects>
 <connect gate="G$1" pin="A_IN" pad="P$1"/>
 <connect gate="G$1" pin="A_OUT" pad="P$2"/>
@@ -14352,7 +14453,10 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <connect gate="G$1" pin="VSS" pad="P$3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="VALUE" value="SN74LVC1G66DRYR" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14707,8 +14811,8 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="D7" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
-<part name="U10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74AUP1T04" device="DCK"/>
-<part name="U7" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="74LVC541A" device="BQ"/>
+<part name="U10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74AUP1T04" device="DCK" value="SN74AUP1T04"/>
+<part name="U7" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="74LVC541A" device="BQ" value="74LVC541A"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
@@ -14724,21 +14828,21 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="U$4" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="V_RF" device=""/>
 <part name="U$9" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
-<part name="C8" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="CBR04C470J5GAC" device=""/>
+<part name="C8" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="CBR04C470J5GAC" device="" value="47pF"/>
 <part name="U$1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10NF" device="-0402T-25V-10%-X7R-WE" value="10nF"/>
 <part name="U$2" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
-<part name="Q1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="DMP21D0UT" device=""/>
+<part name="Q1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="DMP21D0UT" device="-7" value="DMP21D0UT-7"/>
 <part name="U$8" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="V_RF" device=""/>
-<part name="L1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="LQW15AWR15J80D" device=""/>
+<part name="L1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="LQW15AWR15J80D" device="" value="150nH"/>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="U$12" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="SUPPLYTIE1" library="SparkFun-PowerSymbols" deviceset="2PT_GND_TIE" device=""/>
 <part name="U$14" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U9" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="FIN1017MX" device="SOIC-8"/>
+<part name="U9" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="FIN1017" device="MX" value="FIN1017MX"/>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
@@ -14784,7 +14888,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="R17" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
-<part name="U11" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74AUP1T04" device="DCK"/>
+<part name="U11" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74AUP1T04" device="DCK" value="SN74AUP1T04"/>
 <part name="SUPPLY49" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
@@ -14814,7 +14918,7 @@ and fall times across the entire VCC range from 1.65 V to 5.5 V.&lt;/p&gt;
 <part name="R11" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="U$10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="GND_RF" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
-<part name="U1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74LVC1G66DRYR" device=""/>
+<part name="U1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" deviceset="SN74LVC1G66" device="DRYR" value="SN74LVC1G66DRYR"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -15143,7 +15247,6 @@ to the side labeled "SPI".</text>
 </instance>
 <instance part="C8" gate="G$1" x="266.7" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="258.064" y="234.061" size="1.778" layer="95" font="vector"/>
-<attribute name="CAPACITANCE" x="251.46" y="228.6" size="1.778" layer="96" font="vector"/>
 <attribute name="TOLERANCE" x="259.08" y="228.6" size="1.778" layer="96" font="vector"/>
 <attribute name="VOLTAGE" x="269.24" y="233.68" size="1.778" layer="96" font="vector" display="off"/>
 </instance>
@@ -15169,7 +15272,6 @@ to the side labeled "SPI".</text>
 </instance>
 <instance part="L1" gate="G$1" x="226.06" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="222.25" y="233.68" size="1.778" layer="95" font="vector"/>
-<attribute name="INDUCTANCE" x="220.98" y="228.6" size="2.032" layer="96" font="vector"/>
 </instance>
 <instance part="SUPPLY34" gate="VDD" x="330.2" y="175.26" smashed="yes">
 <attribute name="VALUE" x="330.2" y="178.054" size="1.778" layer="96" align="bottom-center"/>

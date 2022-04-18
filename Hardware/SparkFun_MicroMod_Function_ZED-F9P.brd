@@ -13569,6 +13569,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="1.4" y="-1.5" size="0.61" layer="27" font="vector" ratio="20" rot="R90" align="top-left">&gt;VALUE</text>
 </package>
 <package name="DHVQFN20">
+<description>&lt;h3&gt;DHVQFN20 - 20-pin plastic, leadless, very thin quad flat package &lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 0.29mm x 0.9mm&lt;/li&gt;
+&lt;li&gt;Pin count: 20&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;li&gt;Package Size: 2.5mm x 4.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://assets.nexperia.com/documents/package-information/SOT764-1.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;74LVC541A&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
 <rectangle x1="-1.87" y1="0.875" x2="-1.63" y2="1.825" layer="31"/>
 <rectangle x1="-1.945" y1="0.8" x2="-1.555" y2="1.9" layer="29"/>
 <rectangle x1="-1.37" y1="0.875" x2="-1.13" y2="1.825" layer="31"/>
@@ -13615,15 +13627,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-2.4" y1="-1.4" x2="2.4" y2="-1.4" width="0.1" layer="51"/>
 <wire x1="2.4" y1="-1.4" x2="2.4" y2="1.4" width="0.1" layer="51"/>
 <wire x1="2.4" y1="1.4" x2="-2.4" y2="1.4" width="0.1" layer="51"/>
-<wire x1="-2" y1="-1.5" x2="-2.5" y2="-1.5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="-0.6" width="0.1" layer="21"/>
-<wire x1="-2" y1="1.5" x2="-2.5" y2="1.5" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="-2.5" y2="0.5" width="0.1" layer="21"/>
-<wire x1="2" y1="1.5" x2="2.5" y2="1.5" width="0.1" layer="21"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="0.5" width="0.1" layer="21"/>
-<wire x1="2" y1="-1.5" x2="2.5" y2="-1.5" width="0.1" layer="21"/>
-<wire x1="2.5" y1="-1.5" x2="2.5" y2="-0.5" width="0.1" layer="21"/>
-<circle x="-3" y="-0.8" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="-1.5" x2="-2.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="-2.5" y2="-0.6" width="0.2" layer="21"/>
+<wire x1="-2.1" y1="1.5" x2="-2.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="0.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="1.5" x2="2.5" y2="1.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="2.5" y2="0.6" width="0.2" layer="21"/>
+<wire x1="2.1" y1="-1.5" x2="2.5" y2="-1.5" width="0.2" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="-0.6" width="0.2" layer="21"/>
+<circle x="-3" y="-0.8" radius="0.2" width="0" layer="21"/>
 <smd name="P$1" x="-2.25" y="-0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
 <smd name="P$2" x="-1.75" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$3" x="-1.25" y="-1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
@@ -13644,7 +13656,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P$18" x="-1.25" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$19" x="-1.75" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="P$20" x="-2.25" y="0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="P$21" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="EPAD" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
+<rectangle x1="-3" y1="-2.1" x2="2.9" y2="2.1" layer="39"/>
+<text x="-2.6" y="2.2" size="0.6" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-2.5" y="-2.8" size="0.6" layer="27" font="vector" ratio="20">&gt;Value</text>
 </package>
 <package name="ZED-F9P">
 <wire x1="11" y1="8.5" x2="11" y2="-8.5" width="0.127" layer="51"/>
@@ -13904,6 +13919,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-0.9" y="-0.8" size="0.2" layer="51" font="vector">G</text>
 <text x="0.8" y="-0.8" size="0.2" layer="51" font="vector">S</text>
 <text x="0.4" y="0.8" size="0.2" layer="51" font="vector">D</text>
+<text x="-1" y="1.2" size="0.6" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1" y="-1.7" size="0.6" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<rectangle x1="-0.9" y1="-0.9" x2="1" y2="1" layer="39"/>
 </package>
 <package name="0402_MURATA">
 <wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
@@ -13962,32 +13980,44 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="USON_DRY0006A">
-<smd name="P$1" x="0" y="0" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<description>&lt;h3&gt;DRY0006A (S-PUSON-N6) - 6-pin, plastic small outline - no lead&lt;/h3&gt;
+&lt;p&gt;Mechanical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Pad Size: 0.35mm x 0.2mm&lt;/li&gt;
+&lt;li&gt;Pin count: 6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.5mm&lt;/li&gt;
+&lt;li&gt;Package Size: 1.0mm x 1.5mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.ti.com/lit/ml/qfnd138e/qfnd138e.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SN74LVC1G66&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-0.15" x2="0.225" y2="0.15" layer="29"/>
 <rectangle x1="-0.175" y1="-0.1" x2="0.175" y2="0.1" layer="31"/>
-<smd name="P$2" x="0" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-0.65" x2="0.225" y2="-0.35" layer="29"/>
 <rectangle x1="-0.175" y1="-0.6" x2="0.175" y2="-0.4" layer="31"/>
-<smd name="P$3" x="0" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$3" x="0" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="-0.225" y1="-1.15" x2="0.225" y2="-0.85" layer="29"/>
 <rectangle x1="-0.175" y1="-1.1" x2="0.175" y2="-0.9" layer="31"/>
-<smd name="P$4" x="0.6" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$4" x="0.6" y="-1" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-1.15" x2="0.825" y2="-0.85" layer="29"/>
 <rectangle x1="0.425" y1="-1.1" x2="0.775" y2="-0.9" layer="31"/>
-<smd name="P$5" x="0.6" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$5" x="0.6" y="-0.5" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-0.65" x2="0.825" y2="-0.35" layer="29"/>
 <rectangle x1="0.425" y1="-0.6" x2="0.775" y2="-0.4" layer="31"/>
-<smd name="P$6" x="0.6" y="0" dx="0.35" dy="0.2" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="P$6" x="0.6" y="0" dx="0.35" dy="0.2" layer="1" stop="no" cream="no"/>
 <rectangle x1="0.375" y1="-0.15" x2="0.825" y2="0.15" layer="29"/>
 <rectangle x1="0.425" y1="-0.1" x2="0.775" y2="0.1" layer="31"/>
 <wire x1="-0.22" y1="0.15" x2="-0.22" y2="-1.15" width="0.05" layer="51"/>
 <wire x1="-0.22" y1="-1.15" x2="0.82" y2="-1.15" width="0.05" layer="51"/>
 <wire x1="0.82" y1="-1.15" x2="0.82" y2="0.15" width="0.05" layer="51"/>
 <wire x1="0.82" y1="0.15" x2="-0.22" y2="0.15" width="0.05" layer="51"/>
-<wire x1="0.54" y1="0.33" x2="1.04" y2="0.33" width="0.16" layer="21"/>
-<wire x1="1.04" y1="0.33" x2="1.04" y2="-0.17" width="0.16" layer="21"/>
-<wire x1="0.06" y1="-1.33" x2="-0.44" y2="-1.33" width="0.16" layer="21"/>
-<wire x1="-0.44" y1="-1.33" x2="-0.44" y2="-0.83" width="0.16" layer="21"/>
+<wire x1="0.5" y1="0.3" x2="1" y2="0.3" width="0.1" layer="21"/>
+<wire x1="1" y1="0.3" x2="1" y2="-0.2" width="0.1" layer="21"/>
+<wire x1="0.1" y1="-1.3" x2="-0.4" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-1.3" x2="-0.4" y2="-0.8" width="0.1" layer="21"/>
 <circle x="-0.4" y="0.5" radius="0.1" width="0.254" layer="21"/>
 </package>
 </packages>
@@ -14459,10 +14489,15 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="DIO-08575" x="7.8" y="7.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="7.165" y="7.6" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SC-70-5_DCK" value="SN74AUP1T04DCK" x="14.3" y="31" smashed="yes" rot="R90">
+<element name="U10" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SC-70-5_DCK" value="SN74AUP1T04" x="14.3" y="31" smashed="yes" rot="R90">
 <attribute name="NAME" x="13.6" y="29" size="0.61" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="NA" x="14.3" y="31" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="SN74AUP1T04" x="14.3" y="31" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U7" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="DHVQFN20" value="74LVC541ABQ" x="7.5" y="32.2" smashed="yes" rot="R180"/>
+<element name="U7" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="DHVQFN20" value="74LVC541A" x="7.5" y="32.2" smashed="yes" rot="R180">
+<attribute name="PROD_ID" value="NA" x="7.5" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="74LVC541A" x="7.5" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="D1" library="SparkFun-DiscreteSemi" package="SOD-323" value="3A/10V/280mV" x="12.4" y="8" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.4" y="7.238" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-14072" x="12.4" y="8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14495,10 +14530,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-12416" x="34.27" y="42.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20.27" y="33.862" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="C8" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="0402-TIGHT" value="CBR04C470J5GAC" x="21" y="52.8" smashed="yes" rot="R270">
-<attribute name="CAPACITANCE" value="47pF" x="10" y="62.8" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C8" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="0402-TIGHT" value="47pF" x="21" y="52.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="20.1" y="53.062" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="NA" x="21" y="52.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="10" y="62.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="47pF" x="21" y="52.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="10" y="62.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C5" library="SparkFun-Capacitors" package="0402-TIGHT" value="10nF" x="19.3" y="56.71" smashed="yes" rot="R90">
@@ -14511,16 +14547,23 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-07828" x="3.5" y="57.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="12.5" y="55.538" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="Q1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SOT523" value="DMP21D0UT" x="15.3" y="53.1" locked="yes" smashed="yes"/>
-<element name="L1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="0402_MURATA" value="LQW15AWR15J80D" x="20.6" y="56.21" smashed="yes">
+<element name="Q1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SOT523" value="DMP21D0UT-7" x="15.3" y="53.1" locked="yes" smashed="yes">
+<attribute name="I_D" value="590mA" x="15.3" y="53.1" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="NA" x="15.3" y="53.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="DMP21D0UT-7" x="15.3" y="53.1" size="1.778" layer="27" display="off"/>
+<attribute name="V_DSS" value="-20V" x="15.3" y="53.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="L1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="0402_MURATA" value="150nH" x="20.6" y="56.21" smashed="yes">
 <attribute name="CURRENT" value="280mA" x="20.6" y="56.21" size="1.778" layer="27" display="off"/>
 <attribute name="DCRESISTANCE" value="1.71Ohm" x="20.6" y="56.21" size="1.778" layer="27" display="off"/>
-<attribute name="INDUCTANCE" value="150nH" x="20.6" y="56.21" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="NA" x="20.6" y="56.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="150nH" x="20.6" y="56.21" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SUPPLYTIE1" library="SparkFun-PowerSymbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="13.54" y="18.65" smashed="yes" rot="MR0"/>
-<element name="U9" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SO08" value="FIN1017MXSOIC-8" x="7.7" y="12.7" smashed="yes" rot="R90">
+<element name="U9" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SO08" value="FIN1017MX" x="7.7" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="7.7" y="9.525" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="VALUE" x="7.7" y="16.51" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="NA" x="7.7" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="FIN1017MX" x="7.7" y="16.51" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 </element>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="15.6" y="24.7" smashed="yes" rot="MR0"/>
 <element name="TP4" library="SparkFun-Connectors" package="PAD.03X.03" value="TEST-POINT3" x="15.1" y="60.8" smashed="yes" rot="MR0"/>
@@ -14584,8 +14627,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-00824" x="27.6" y="29.8" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="28.362" y="29.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
-<element name="U11" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SC-70-5_DCK" value="SN74AUP1T04DCK" x="22.1" y="28.8" smashed="yes" rot="R90">
+<element name="U11" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="SC-70-5_DCK" value="SN74AUP1T04" x="22.1" y="28.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.2" y="30.1" size="0.61" layer="25" font="vector" ratio="20"/>
+<attribute name="PROD_ID" value="NA" x="22.1" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="SN74AUP1T04" x="22.1" y="28.8" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U2" library="SparkFun-IC-Power" package="SOT23-5" value="3.3V" x="14.8" y="13.3" smashed="yes">
 <attribute name="NAME" x="13.241" y="12.922" size="0.6096" layer="25" ratio="20" rot="R90"/>
@@ -14632,7 +14677,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-00824" x="7.4" y="58.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="8.738" y="59" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="U1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="USON_DRY0006A" value="SN74LVC1G66DRYR" x="26.9" y="33" smashed="yes"/>
+<element name="U1" library="MicroMod_Function_GNSS_ublox_ZED_F9P" package="USON_DRY0006A" value="SN74LVC1G66DRYR" x="26.9" y="33" smashed="yes">
+<attribute name="PROD_ID" value="NA" x="26.9" y="33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="SN74LVC1G66DRYR" x="26.9" y="33" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R15" library="SparkFun-Resistors" package="0603" value="68.1k" x="23.8" y="32.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.8" y="30.962" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-09380" x="23.8" y="32.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -14720,11 +14768,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="CAP-12416" x="18.85" y="28.15" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.35" y="28.712" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R12" library="SparkFun-Resistors" package="0603" value="1k" x="14.2" y="54.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="11.7" y="55.038" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="14" y="54.8" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
-<attribute name="RESISTANCE" value="1k" x="14.2" y="54.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="14.2" y="55.562" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="R12" library="SparkFun-Resistors" package="0603" value="1k" x="14.2" y="54.83" smashed="yes" rot="R180">
+<attribute name="NAME" x="11.7" y="55.068" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07856" x="14" y="54.83" size="1.778" layer="27" font="vector" ratio="15" rot="R180" display="off"/>
+<attribute name="RESISTANCE" value="1k" x="14.2" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="14.2" y="55.592" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="C12" library="SparkFun-Capacitors" package="0402-TIGHT" value="1.0uF" x="12.7" y="34" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.3" y="34.338" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -16090,7 +16138,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="J18" pad="3"/>
 <contactref element="U10" pad="P$3"/>
 <contactref element="U11" pad="P$3"/>
-<contactref element="U7" pad="P$21"/>
+<contactref element="U7" pad="EPAD"/>
 <contactref element="U7" pad="P$10"/>
 <contactref element="U4" pad="7"/>
 <contactref element="U5" pad="7"/>
@@ -16335,7 +16383,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="U6" pad="3"/>
 <contactref element="R12" pad="2"/>
 <wire x1="13.35" y1="57.4001" x2="13.3999" y2="57.45" width="0.5" layer="1"/>
-<wire x1="13.35" y1="54.8" x2="13.35" y2="56.3" width="0.2" layer="1"/>
+<wire x1="13.35" y1="54.83" x2="13.35" y2="56.3" width="0.2" layer="1"/>
 <wire x1="13.35" y1="56.3" x2="13.35" y2="57.4001" width="0.2" layer="1"/>
 </signal>
 <signal name="PPS_DIFF_N" class="9">
@@ -16350,12 +16398,13 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="Q1" pad="P$1"/>
 <contactref element="R14" pad="1"/>
 <contactref element="R12" pad="1"/>
-<wire x1="15.4" y1="54.45" x2="15.4" y2="53.9" width="0.35" layer="1"/>
-<wire x1="15.3" y1="53.8" x2="15.4" y2="53.9" width="0.35" layer="1"/>
-<wire x1="15.4" y1="54.45" x2="15.05" y2="54.8" width="0.35" layer="1"/>
-<wire x1="17.3" y1="55.15" x2="15.4" y2="55.15" width="0.35" layer="1"/>
-<wire x1="15.05" y1="54.8" x2="15.4" y2="55.15" width="0.35" layer="1"/>
+<wire x1="15.3" y1="54.558571875" x2="15.3" y2="53.8" width="0.35" layer="1"/>
+<wire x1="15.4" y1="55.15" x2="17.3" y2="55.15" width="0.35" layer="1"/>
 <wire x1="17.6" y1="54.85" x2="17.3" y2="55.15" width="0.35" layer="1"/>
+<wire x1="15.05" y1="54.83" x2="15.3" y2="54.58" width="0.1524" layer="1"/>
+<wire x1="15.3" y1="54.58" x2="15.3" y2="54.558571875" width="0.1524" layer="1"/>
+<wire x1="15.05" y1="54.83" x2="15.08" y2="54.83" width="0.1524" layer="1"/>
+<wire x1="15.08" y1="54.83" x2="15.4" y2="55.15" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$7" class="3">
 <contactref element="C8" pad="1"/>
