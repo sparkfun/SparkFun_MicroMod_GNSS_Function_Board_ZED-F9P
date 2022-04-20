@@ -1165,7 +1165,7 @@ inputs reject input noise, ensure integrity of output signals, and allow for slo
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16703" constant="no"/>
 <attribute name="VALUE" value="SN74AUP1T04" constant="no"/>
 </technology>
 </technologies>
@@ -1212,7 +1212,7 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16698" constant="no"/>
 <attribute name="VALUE" value="74LVC541A" constant="no"/>
 </technology>
 </technologies>
@@ -1279,7 +1279,7 @@ allows the use of these devices as translators in mixed 3.3 V and 5 V environmen
 <technology name="">
 <attribute name="CURRENT" value="280mA"/>
 <attribute name="DCRESISTANCE" value="1.71Ohm"/>
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16702" constant="no"/>
 <attribute name="VALUE" value="150nH" constant="no"/>
 </technology>
 </technologies>
@@ -1324,7 +1324,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16699" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 <attribute name="VALUE" value="47pF" constant="no"/>
 <attribute name="VOLTAGE" value="50V"/>
@@ -1366,7 +1366,7 @@ ideal for high efficiency power management applications.&lt;/p&gt;
 <technologies>
 <technology name="">
 <attribute name="I_D" value="590mA" constant="no"/>
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16700" constant="no"/>
 <attribute name="VALUE" value="DMP21D0UT-7" constant="no"/>
 <attribute name="V_DSS" value="-20V" constant="no"/>
 </technology>
@@ -1412,7 +1412,7 @@ is ideal for high-speed transfer of clock or data.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16701" constant="no"/>
 <attribute name="VALUE" value="FIN1017MX" constant="no"/>
 </technology>
 </technologies>
@@ -1439,7 +1439,7 @@ is ideal for high-speed transfer of clock or data.&lt;/p&gt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NA" constant="no"/>
+<attribute name="PROD_ID" value="16704" constant="no"/>
 <attribute name="VALUE" value="SN74LVC1G66DRYR" constant="no"/>
 </technology>
 </technologies>
