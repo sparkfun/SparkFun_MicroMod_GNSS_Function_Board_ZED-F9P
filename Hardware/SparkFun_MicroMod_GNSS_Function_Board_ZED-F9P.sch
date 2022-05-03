@@ -9,7 +9,7 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="2" name="Route2" color="13" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,8 +22,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="47" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="9" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
@@ -28006,8 +28006,8 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402-1/16W-1%" value="5.1k"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402-1/16W-1%" value="5.1k"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="27OHM" device="" value="27"/>
@@ -28033,7 +28033,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402-1/16W-1%" value="1KOHM-0402-1/16W-1%">
+<part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k">
 <attribute name="RES" value="1k"/>
 </part>
 <part name="JP4" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
@@ -28042,7 +28042,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="U$6" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="GND_RF" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="VDD" device="" value="V_ZED"/>
-<part name="R16" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
+<part name="R16" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="U8" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="U-BLOX_ZED-F9P" device=""/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="U$4" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="V_RF" device=""/>
@@ -28051,7 +28051,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="U$1" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="GND_RF" device=""/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10NF" device="-0402T-25V-10%-X7R-WE" value="10nF"/>
 <part name="U$2" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="GND_RF" device=""/>
-<part name="R13" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402-1/16W-1%" value="100K"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k"/>
 <part name="Q1" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="DMP21D0UT" device="-7" value="DMP21D0UT-7"/>
 <part name="U$8" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="V_RF" device=""/>
 <part name="L1" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" deviceset="LQW15AWR15J80D" device="" value="150nH"/>
@@ -28114,7 +28114,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1"/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
@@ -28166,7 +28166,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
 <part name="C16" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-16V-10%" value="0.1uF"/>
-<part name="R12" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402-1/16W-1%" value="1KOHM-0402-1/16W-1%">
+<part name="R12" library="SparkFun-Resistors" deviceset="100KOHM" device="-0402T-1/16W-1%" value="100k">
 <attribute name="RESISTANCE" value="1k"/>
 </part>
 <part name="C12" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
