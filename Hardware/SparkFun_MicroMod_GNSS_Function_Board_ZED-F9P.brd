@@ -10,16 +10,16 @@
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="13" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="47" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom/Vert" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="47" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom/Vert" color="9" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,20 +34,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -13328,14 +13328,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="17.865" y1="24.135" x2="17.865" y2="24.235" width="0.2" layer="2"/>
 <wire x1="17.865" y1="24.235" x2="16.695" y2="25.405" width="0.2" layer="2"/>
 <wire x1="17.865" y1="26.4" x2="17.865" y2="24.135" width="0.2" layer="1"/>
-<wire x1="20.405" y1="20.8" x2="20.405" y2="22.005" width="0.2" layer="1"/>
-<wire x1="21.675" y1="23.275" x2="20.405" y2="22.005" width="0.2" layer="2"/>
 <wire x1="21.675" y1="23.275" x2="21.7" y2="23.3" width="0.2" layer="2"/>
 <wire x1="21.675" y1="20.8" x2="21.675" y2="23.275" width="0.2" layer="1"/>
 <via x="17.865" y="24.135" extent="1-16" drill="0.3"/>
 <via x="16.695" y="25.405" extent="1-16" drill="0.3"/>
 <via x="23.7" y="28.8" extent="1-16" drill="0.3"/>
-<via x="20.405" y="22.005" extent="1-16" drill="0.3"/>
 <via x="21.675" y="23.275" extent="1-16" drill="0.3"/>
 <wire x1="24.95" y1="42.2" x2="26.1" y2="42.2" width="0.11" layer="1"/>
 <via x="26.1" y="42.2" extent="1-16" drill="0.3"/>
@@ -13347,6 +13344,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <wire x1="25.4" y1="27.4" x2="24.4" y2="27.4" width="0.11" layer="16"/>
 <wire x1="24.4" y1="27.4" x2="23.7" y2="28.1" width="0.11" layer="16"/>
 <wire x1="23.7" y1="28.1" x2="23.7" y2="28.8" width="0.11" layer="16"/>
+<wire x1="20.405" y1="20.8" x2="20.405" y2="22.605" width="0.2" layer="1"/>
+<wire x1="20.405" y1="22.605" x2="21.1" y2="23.3" width="0.2" layer="1"/>
+<wire x1="21.1" y1="23.3" x2="21.65" y2="23.3" width="0.2" layer="1"/>
+<wire x1="21.65" y1="23.3" x2="21.675" y2="23.275" width="0.2" layer="1"/>
 </signal>
 <signal name="ZED_ANT_DETECT" class="11">
 <contactref element="U8" pad="4"/>
@@ -14074,7 +14075,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="U5" pad="5"/>
 <contactref element="U5" pad="6"/>
 <contactref element="U5" pad="12"/>
-<wire x1="5.765" y1="24.135" x2="6.8" y2="23.1" width="0.2" layer="2"/>
+<wire x1="5.765" y1="24.135" x2="6.3" y2="23.6" width="0.2" layer="2"/>
 <wire x1="5.765" y1="24.135" x2="4.495" y2="25.405" width="0.2" layer="2"/>
 <wire x1="4.495" y1="25.405" x2="4.495" y2="26.4" width="0.2" layer="1"/>
 <wire x1="20.7" y1="29.45" x2="16.05" y2="29.45" width="0.2" layer="1"/>
@@ -14088,7 +14089,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <via x="9.6" y="23.1" extent="1-16" drill="0.3"/>
 <wire x1="16.05" y1="29.45" x2="15.95" y2="29.45" width="0.2" layer="15"/>
 <wire x1="15.95" y1="29.45" x2="9.6" y2="23.1" width="0.2" layer="15"/>
-<wire x1="6.8" y1="23.1" x2="9.6" y2="23.1" width="0.2" layer="2"/>
+<wire x1="9.1" y1="23.6" x2="6.3" y2="23.6" width="0.2" layer="2"/>
+<wire x1="9.1" y1="23.6" x2="9.6" y2="23.1" width="0.2" layer="2"/>
 <wire x1="9.6" y1="23.1" x2="9.6" y2="20.825" width="0.2" layer="1"/>
 <wire x1="9.6" y1="20.825" x2="9.575" y2="20.8" width="0.2" layer="1"/>
 </signal>
