@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -196,7 +196,7 @@
 <board>
 <plain>
 <wire x1="28.672" y1="0" x2="21.972" y2="0" width="0.05" layer="20"/>
-<text x="31.67" y="5.17" size="1.27" layer="16" font="vector" ratio="20" rot="SMR0" align="center">v01</text>
+<text x="31.67" y="5.17" size="1.27" layer="16" font="vector" ratio="20" rot="SMR0" align="center">v02</text>
 <text x="62.23" y="-8.89" size="1.778" layer="51" font="vector">A. Brudner</text>
 <wire x1="20.772" y1="0" x2="8.822" y2="0" width="0.05" layer="20"/>
 <wire x1="28.672" y1="0" x2="28.672" y2="3.5" width="0.05" layer="20"/>
@@ -14516,6 +14516,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="23,16,f11d16fc171b1513"/>
 <approved hash="19,1,ee01e8a00ea60807"/>
 <approved hash="19,16,a00e869696efb4b3"/>
+<approved hash="19,16,42e4b4205ba8d8e9"/>
+<approved hash="19,16,bf49b2388ccc8579"/>
 </errors>
 </board>
 </drawing>
