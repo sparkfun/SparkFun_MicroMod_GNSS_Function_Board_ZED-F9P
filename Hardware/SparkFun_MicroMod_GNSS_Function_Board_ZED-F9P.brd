@@ -3,30 +3,30 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top/Horz" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="13" fill="3" visible="yes" active="yes"/>
-<layer number="15" name="Route15" color="47" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom/Vert" color="9" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="47" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom/Vert" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -11440,7 +11440,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="18" x="-1.25" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="19" x="-1.75" y="1.35" dx="0.99" dy="0.28" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 <smd name="20" x="-2.25" y="0.25" dx="0.99" dy="0.28" layer="1" stop="no" thermals="no" cream="no"/>
-<smd name="EPAD" x="0" y="0" dx="2.9" dy="0.9" layer="1" stop="no" thermals="no" cream="no"/>
+<smd name="EPAD" x="0" y="0" dx="2.9" dy="0.9" layer="1" cream="no"/>
 <rectangle x1="-3" y1="-2.1" x2="2.9" y2="2.1" layer="39"/>
 <text x="-2.6" y="2.2" size="0.6" layer="25" font="vector" ratio="20">&gt;Name</text>
 <text x="-2.5" y="-2.8" size="0.6" layer="27" font="vector" ratio="20">&gt;Value</text>
@@ -12318,7 +12318,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="VALUE" x="5.962" y="54.1" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U1" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" package="SOT353" value="NLAST4501DFT2G" x="26.4" y="31.3" smashed="yes" rot="R270">
-<attribute name="PROD_ID" value="NA" x="26.4" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="IC-16759" x="26.4" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="NLAST4501DFT2G" x="26.4" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R15" library="SparkFun-Resistors" package="0603" value="68.1k" x="22.8" y="31.3" smashed="yes" rot="R180">
@@ -14016,6 +14016,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <vertex x="20.35" y="60.6"/>
 </polygon>
 <contactref element="JP8" pad="1"/>
+<via x="7.2" y="32.2" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="RF_IN" class="3">
 <contactref element="U8" pad="2"/>
@@ -14481,7 +14482,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="5,1,89a6def75b13f3c6"/>
 <approved hash="5,1,a9847476d0d2feb5"/>
 <approved hash="5,1,a954f53f0d37a12a"/>
-<approved hash="19,16,bf49b2388ccc8579"/>
 <approved hash="19,16,86c7679a6a0ffed7"/>
 <approved hash="19,16,d1c2424d907ad388"/>
 <approved hash="19,16,c2da9f0f9505e281"/>
@@ -14514,6 +14514,8 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="23,16,12cebda6ae050b0e"/>
 <approved hash="23,16,2554844d558c3f5e"/>
 <approved hash="23,16,f11d16fc171b1513"/>
+<approved hash="19,1,ee01e8a00ea60807"/>
+<approved hash="19,16,a00e869696efb4b3"/>
 </errors>
 </board>
 </drawing>
