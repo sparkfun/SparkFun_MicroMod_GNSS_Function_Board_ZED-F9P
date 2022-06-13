@@ -28435,7 +28435,7 @@ pull-up
 resistors.</text>
 <text x="110.49" y="105.664" size="1.778" layer="97" font="vector" rot="MR0">1k</text>
 <text x="110.49" y="120.904" size="1.778" layer="97" font="vector" rot="MR0">1k</text>
-<text x="134.62" y="127" size="1.27" layer="97" align="center">RTK Solution:
+<text x="134.62" y="127" size="1.27" layer="97" font="vector" align="center">RTK Solution:
 Off: None
 Blinking: Float
 On: Fixed</text>
