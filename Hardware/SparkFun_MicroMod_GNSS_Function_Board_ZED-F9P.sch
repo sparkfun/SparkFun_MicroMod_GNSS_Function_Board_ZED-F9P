@@ -28390,7 +28390,7 @@ capacitance with reference to ambient temperature.&lt;/p&gt;
 <plain>
 <text x="71.374" y="86.106" size="2.54" layer="94" font="vector" align="center">MicroMod Function Connector</text>
 <text x="348.234" y="11.176" size="2.54" layer="94" font="vector">A. Brudner</text>
-<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v03</text>
+<text x="421.894" y="6.096" size="2.54" layer="94" font="vector">v10</text>
 <text x="71.12" y="269.24" size="2.54" layer="94" font="vector" align="center">ZED-F9P USB (u-center)</text>
 <text x="111.76" y="203.2" size="2.54" layer="94" font="vector" align="center">ZED-F9P Backup Battery</text>
 <text x="111.76" y="129.54" size="2.54" layer="94" font="vector" align="center">LEDs</text>
