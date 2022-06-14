@@ -226,6 +226,8 @@
 <dimension x1="0" y1="4" x2="2.05" y2="44" x3="-7" y3="24" textsize="1" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 <dimension x1="0" y1="65" x2="21.05" y2="59.69" x3="10.525" y3="66.3" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
 <dimension x1="0" y1="65" x2="30.4" y2="58.9" x3="15.2" y3="68.9" textsize="1" textratio="15" layer="47" dtype="horizontal" width="0.05"/>
+<dimension x1="37.493" y1="4" x2="36" y2="12.6" x3="39.5" y3="8.3" textsize="1" textratio="15" layer="47" dtype="vertical" width="0.05"/>
+<dimension x1="37.493" y1="4" x2="35.7" y2="33.5" x3="40.7" y3="18.75" textsize="1" textratio="15" layer="47" dtype="vertical" width="0.05"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -14514,8 +14516,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="5,1,89a6def75b13f3c6"/>
 <approved hash="5,1,a9847476d0d2feb5"/>
 <approved hash="5,1,a954f53f0d37a12a"/>
-<approved hash="19,16,d425d45a385a3825"/>
-<approved hash="19,16,d3875d96e195e187"/>
 <approved hash="4,1,77e702557f997458"/>
 <approved hash="4,1,bede1b8c02fa98be"/>
 <approved hash="4,16,b464f3c9324ea040"/>
@@ -14523,8 +14523,6 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="4,16,743cd17827f037a7"/>
 <approved hash="5,1,5d9299a1051c0254"/>
 <approved hash="5,1,1d92ec85daf8e894"/>
-<approved hash="23,16,64ff6f1f680663e6"/>
-<approved hash="23,16,f11d16fc171b1513"/>
 <approved hash="19,1,ee01e8a00ea60807"/>
 <approved hash="5,1,52fbcbbdaadfa574"/>
 <approved hash="5,1,a571d75405710237"/>
@@ -14532,14 +14530,12 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <approved hash="5,16,60f281d405709484"/>
 <approved hash="5,16,2fe680a48079dd74"/>
 <approved hash="19,16,b4cdb4b364f4e533"/>
-<approved hash="19,16,8306611887195e2e"/>
 <approved hash="19,16,554c5d4455c454c4"/>
 <approved hash="19,16,348e3481f485cc81"/>
 <approved hash="19,16,9aba66bbbd43bebb"/>
 <approved hash="19,16,7a837683bd7bbe83"/>
 <approved hash="19,16,7a827685bd7dbe82"/>
 <approved hash="19,16,ce8da54e7d9e2d74"/>
-<approved hash="19,16,1c1a447c4cac9573"/>
 <approved hash="19,16,60b46070207c20b0"/>
 </errors>
 </board>
