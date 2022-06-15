@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
@@ -12365,10 +12365,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="RES-15923" x="18.99" y="16.51" size="1.778" layer="27" display="off"/>
 <attribute name="RES" value="3.3k" x="18.99" y="9.51" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R7" library="SparkFun-Resistors" package="0402-TIGHT" value="1k" x="8.5" y="61.35" smashed="yes" rot="R270">
+<element name="R7" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7k" x="8.5" y="61.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="8.262" y="59.15" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14342" x="13.5" y="87.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1k" x="8.5" y="61.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="RES-15343" x="13.5" y="87.35" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="4.7k" x="8.5" y="61.35" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="RTKLED" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK" x="6.5" y="61.8" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.643" y="61.8" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
@@ -12708,10 +12708,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$68" library="output" package="#VZED#0" value="" x="4.5" y="53" smashed="yes" rot="R90"/>
 <element name="U$73" library="output" package="#_DIS#0" value="" x="10.8" y="53.4" smashed="yes" rot="MR0"/>
 <element name="U$74" library="output" package="#EN_#0" value="" x="17.1" y="53.4" smashed="yes" rot="MR0"/>
-<element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="4.7k" x="12.5" y="61.35" smashed="yes" rot="R270">
+<element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="1k" x="12.5" y="61.35" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.262" y="61.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-15343" x="12.5" y="65.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="4.7k" x="11.738" y="61.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="RES-14342" x="12.5" y="65.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1k" x="11.738" y="61.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R20" library="SparkFun-Resistors" package="0402-TIGHT" value="10k" x="33.2" y="25.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.438" y="25.6" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -12731,10 +12731,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="NAME" x="3.643" y="61.8" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="1.357" y="61.8" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
 </element>
-<element name="D6" library="SparkFun-LED" package="LED-0603" value="YELLOW" x="2.5" y="61.7" smashed="yes" rot="R270">
+<element name="D6" library="SparkFun-LED" package="LED-0603" value="BLUE" x="2.5" y="61.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.135" y="61.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-09003" x="6.6" y="74.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="1.865" y="61.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="DIO-08575" x="6.6" y="74.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="BLUE" x="1.865" y="61.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="U$2" library="output" package="#_RTCMTX#0" value="" x="36" y="10.05" smashed="yes" rot="MR0"/>
 <element name="U$3" library="output" package="#TX2_#0" value="" x="31.2" y="10.05" smashed="yes"/>
