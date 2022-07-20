@@ -12410,10 +12410,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="NAME" x="11.235" y="60.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="DIO-00819" x="10.5" y="75.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R19" library="SparkFun-Resistors" package="0402-TIGHT" value="47k" x="20.2" y="31" smashed="yes" rot="R90">
+<element name="R19" library="SparkFun-Resistors" package="0402-TIGHT" value="470" x="20.2" y="31" smashed="yes" rot="R90">
 <attribute name="NAME" x="19.538" y="31" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-15011" x="0.2" y="27" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="47k" x="20.862" y="31" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<attribute name="PROD_ID" value="RES-15584" x="0.2" y="27" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="470" x="20.862" y="31" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="U8" library="SparkFun_MicroMod_GNSS_Function_Board_ZED-F9P" package="ZED-F9P" value="U-BLOX_ZED-F9P" x="15" y="43.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="26" y="34.3" size="0.508" layer="25" rot="R180"/>
@@ -12554,10 +12554,10 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <attribute name="PROD_ID" value="IC-16759" x="26.4" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="NLAST4501DFT2G" x="26.4" y="31.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R18" library="SparkFun-Resistors" package="0402-TIGHT" value="22k" x="22.8" y="31.3" smashed="yes" rot="R180">
+<element name="R18" library="SparkFun-Resistors" package="0402-TIGHT" value="220" x="22.8" y="31.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.8" y="30.062" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14281" x="22.8" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="22k" x="22.8" y="31.962" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<attribute name="PROD_ID" value="RES-15269" x="22.8" y="31.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="220" x="22.8" y="31.962" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
 <element name="J1" library="SparkFun-Connectors" package="USB-C-16P-4LAYER-ISOLATED" value="USB Female Type C Connector" x="30.4" y="58.9" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.4" y="61.44" size="0.762" layer="25" rot="R180" align="center"/>
